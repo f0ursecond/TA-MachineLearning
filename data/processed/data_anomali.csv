@@ -1,0 +1,287 @@
+No,Nama Lengkap,Prodi,Jenis Kelamin,Jarak Tempat Tinggal kekampus (Km),Asal Sekolah,Tahun Lulus,SKS,Ikut Organisasi,Ikut UKM,IPK,Pekerjaan Orang Tua,Penghasilan,Tanggungan,Status Beasiswa,Ground_Truth,Cluster_KMeans,Cluster_Agglomerative,Cluster_DBSCAN,Cluster_KMeans_Label,Tipe_Anomali
+1.0,GALAN PRASETIO,Bimbingan dan Konseling | Reguler,L,Dekat,SMAN 1 GEDONG TATAAN,2020.0,21.0,Ikut,Ikut,3.57,Wiraswasta,Sedang,4.0,Terima,1,1,0,0,Tidak Layak,Salah Terima
+3.0,ADELIA PANE,Bimbingan dan Konseling | Reguler,P,Dekat,SMK HAMPAR BAIDURI,2020.0,21.0,Tidak,Ikut,3.67,Petani,Sedang,4.0,Terima,1,1,1,0,Tidak Layak,Salah Terima
+6.0,ANIS SETIYAWATI,Bimbingan dan Konseling | Reguler,P,Dekat,MA MATHLA'UL ANWAR,2020.0,21.0,Tidak,Ikut,3.78,Wiraswasta,Rendah,3.0,Terima,1,1,1,0,Tidak Layak,Salah Terima
+40.0,DENI MUTIARA SENJA,D III Keperawatan | Reguler,P,Jauh,SMK YPIB KOTABUMI,2020.0,21.0,Tidak,Ikut,3.79,Petani,Sedang,4.0,Terima,1,1,1,0,Tidak Layak,Salah Terima
+49.0,INTAN SYA DEWI,D III Keperawatan | Reguler,P,Dekat,SMK WIDYA YAHYA GADINGREJO,2020.0,21.0,Tidak,Ikut,3.75,Petani,Rendah,3.0,Terima,1,1,1,0,Tidak Layak,Salah Terima
+64.0,DWI NURHADI.MH,D III Keperawatan | Reguler,L,Jauh,SMA NEGERI 1 PULAU PANGGUNG,2020.0,21.0,Ikut,Ikut,3.33,Petani,Sedang,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+67.0,MELINDA MURIYANI,D III Keperawatan | Reguler,P,Jauh,SMKN 1 BANDAR LAMPUNG,2020.0,21.0,Tidak,Ikut,3.71,Petani,Sedang,1.0,Terima,1,1,1,0,Tidak Layak,Salah Terima
+73.0,FITRIYANI,D III Keperawatan | Reguler,P,Dekat,SMA N 1 LIMAU,2020.0,21.0,Tidak,Ikut,3.81,Buruh,Rendah,2.0,Terima,1,1,1,0,Tidak Layak,Salah Terima
+78.0,RANGGA YUNIZAR,D III Keperawatan | Reguler,L,Dekat,SMK WIDYA YAHYA,2020.0,21.0,Tidak,Ikut,3.76,Karyawan Swasta,Sedang,3.0,Terima,1,1,0,0,Tidak Layak,Salah Terima
+85.0,FAQIH YUSUF,D III Keperawatan | Reguler,L,Jauh,SMA N 1 SUMBEREJO,2020.0,19.0,Tidak,Ikut,3.47,Buruh,Sedang,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+94.0,IBNU ERLANGGA,D III Keperawatan | Reguler,L,Dekat,SMAN 1 BULOK,2020.0,19.0,Tidak,Ikut,3.8,Petani,Sedang,2.0,Terima,1,1,0,0,Tidak Layak,Salah Terima
+103.0,FIRANETA RIVANTI,D III Keperawatan | Reguler,P,Dekat,SMA N 1 LIWA,2020.0,19.0,Tidak,Ikut,3.8,PNS,Rendah,4.0,Terima,1,1,1,0,Tidak Layak,Salah Terima
+140.0,MARCELLA SILVIANA PUTRI,Manajemen | Reguler,P,Dekat,SMAN 1 KOTAAGUNG,2020.0,19.0,Tidak,Ikut,3.68,Petani,Rendah,3.0,Terima,1,1,1,0,Tidak Layak,Salah Terima
+153.0,RISCHI WULANDARI,Manajemen | Reguler,P,Dekat,SMAN 1 BANYUMAS,2020.0,19.0,Tidak,Ikut,3.75,Wiraswasta,Rendah,4.0,Terima,1,1,1,0,Tidak Layak,Salah Terima
+158.0,UMI LAILATUN NAJA,Manajemen | Reguler,P,Jauh,SMA NEGERI 1 MUARADUA,2020.0,19.0,Ikut,Ikut,3.15,Petani,Rendah,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+160.0,SYAHRUL RHOMADONI,Manajemen | Reguler,L,Dekat,SMK BUMI NUSANTARA,2020.0,19.0,Ikut,Ikut,3.06,Petani,Sedang,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+173.0,KRISNA PANGESTU,Manajemen | Reguler,L,Dekat,SMK MUHAMMADIYAH 3 METRO,2020.0,19.0,Tidak,Ikut,3.89,Petani,Rendah,2.0,Terima,1,1,0,0,Tidak Layak,Salah Terima
+174.0,NIA NURUL FAUZIA,Manajemen | Reguler,P,Dekat,SMK MUHAMMADIYAH 3 METRO,2020.0,19.0,Tidak,Ikut,3.79,Petani,Rendah,3.0,Terima,1,1,1,0,Tidak Layak,Salah Terima
+176.0,MAGHFIROTUL HASANAH,Manajemen | Reguler,P,Dekat,SMK KH.GHALIB PRINGSEWU,2020.0,19.0,Tidak,Ikut,3.68,Petani,Rendah,3.0,Terima,1,1,1,0,Tidak Layak,Salah Terima
+186.0,RIZALDI IKHSANU PRATAMA,Pendidikan Bahasa dan Sastra Indonesia | Reguler,L,Dekat,SMK YASMIDA AMBARAWA,2020.0,19.0,Ikut,Ikut,3.89,Petani,Rendah,2.0,Tidak,0,0,0,0,Layak,Salah Tolak
+199.0,MAR'ATUS SHOLEHA,Pendidikan Bahasa dan Sastra Indonesia | Reguler,P,Dekat,SMA XAVERIUS PRINGSEWU,2020.0,19.0,Tidak,Ikut,3.62,Petani,Rendah,3.0,Terima,1,1,1,0,Tidak Layak,Salah Terima
+204.0,VIARDO VARERA,Pendidikan Bahasa dan Sastra Indonesia | Reguler,L,Dekat,MA MA'ARIF KEPUTRAN,2020.0,19.0,Tidak,Ikut,3.63,Petani,Rendah,3.0,Terima,1,1,0,0,Tidak Layak,Salah Terima
+205.0,RIZKI APRIAN SAPUTRA,Pendidikan Bahasa dan Sastra Indonesia | Reguler,L,Dekat,SMA N 2 KOTAAGUNG,2020.0,19.0,Tidak,Ikut,3.86,Petani,Rendah,1.0,Terima,1,1,0,0,Tidak Layak,Salah Terima
+217.0,FARHAN IQBAL WIRAYUDA,Pendidikan Bahasa dan Sastra Indonesia | Reguler,L,Dekat,SMA N 2 PRINGSEWU,2020.0,19.0,Tidak,Ikut,3.79,Buruh,Sedang,3.0,Terima,1,1,0,0,Tidak Layak,Salah Terima
+229.0,FETIA ELFATIANA,Pendidikan Bahasa dan Sastra Indonesia | Reguler,P,Jauh,SMAN 1 TANJUNG RAJA,2020.0,19.0,Tidak,Ikut,3.7,Wiraswasta,Sedang,4.0,Terima,1,1,1,0,Tidak Layak,Salah Terima
+233.0,DEWI NURHASANAH,Pendidikan Bahasa Inggris | Reguler,P,Dekat,SMA NEGERI 1 AMBARAWA,2020.0,19.0,Tidak,Ikut,3.8,Sudah Meninggal,Rendah,3.0,Terima,1,1,1,0,Tidak Layak,Salah Terima
+235.0,ISWAHYUDI,Pendidikan Bahasa Inggris | Reguler,L,Dekat,MA MA’ARIF 5,2020.0,19.0,Tidak,Ikut,3.8,Sudah Meninggal,Rendah,3.0,Terima,1,1,0,0,Tidak Layak,Salah Terima
+236.0,ICHA TIARA,Pendidikan Bahasa Inggris | Reguler,P,Dekat,SMAN 1 PADANG CERMIN,2020.0,19.0,Tidak,Ikut,3.7,Petani,Rendah,3.0,Terima,1,1,1,0,Tidak Layak,Salah Terima
+240.0,EVITA PUTRI ASARI,Pendidikan Bahasa Inggris | Reguler,P,Jauh,SMAN 1 TANJUNG RAJA,2020.0,19.0,Tidak,Ikut,3.8,Wiraswasta,Sedang,3.0,Terima,1,1,1,0,Tidak Layak,Salah Terima
+245.0,RARA ADETIA,Pendidikan Bahasa Inggris | Reguler,P,Jauh,SMAN 1 TUMUJAJAR,2020.0,19.0,Tidak,Tidak,3.8,Karyawan Swasta,Sedang,2.0,Tidak,0,0,0,0,Layak,Salah Tolak
+254.0,HESTI NOVI SAPUTRI,Pendidikan Bahasa Inggris | Reguler,P,Dekat,SMA NEGERI 1 GUNUNG SUGIH,2020.0,19.0,Ikut,Ikut,3.7,Wiraswasta,Rendah,3.0,Terima,1,1,0,0,Tidak Layak,Salah Terima
+272.0,AHMAD BUDIMAN,Pendidikan Bahasa Inggris | Reguler,L,Dekat,SMK N 7 BANDAR LAMPUNG,2020.0,20.0,Tidak,Ikut,3.72,Petani,Sedang,3.0,Terima,1,1,0,0,Tidak Layak,Salah Terima
+288.0,WALIJAH,Pendidikan Bahasa Inggris | Reguler,P,Dekat,SMA N 1 ULU BELU,2020.0,20.0,Tidak,Ikut,3.82,Petani,Rendah,3.0,Terima,1,1,1,0,Tidak Layak,Salah Terima
+292.0,NAWANG SARI,Pendidikan Bahasa Inggris | Reguler,P,Dekat,SMK YP 96 BUKIT KEMUNING,2020.0,20.0,Ikut,Tidak,2.51,Petani,Rendah,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+334.0,NIA WISKY MUTIARA RINA,Pendidikan Guru Sekolah Dasar | Reguler,P,Dekat,SMK KESEHATAN MITRA BANGSA,2020.0,22.0,Tidak,Ikut,3.87,Wiraswasta,Sedang,3.0,Terima,1,1,1,0,Tidak Layak,Salah Terima
+351.0,IFAN RAHMADANI,Pendidikan Guru Sekolah Dasar | Reguler,L,Dekat,SMA N 2 KOTAAGUNG,2019.0,19.0,Tidak,Tidak,3.53,Wiraswasta,Sedang,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+366.0,WAHYU PRATAMA,Pendidikan Guru Sekolah Dasar | Reguler,L,Jauh,SMAN 1 PRINGSEWU,2020.0,19.0,Ikut,Ikut,3.69,Wiraswasta,Sedang,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+422.0,SIVI RAHAYU,Pendidikan Guru Sekolah Dasar | Reguler,P,Dekat,SMA NEGRI 1 AMBARAWA,2020.0,22.0,Tidak,Ikut,3.64,Sudah Meninggal,Sedang,3.0,Terima,1,1,1,0,Tidak Layak,Salah Terima
+454.0,VEGA NINDI LARASATI,Pendidikan Matematika | Reguler,P,Dekat,SMAN 1 PRINGSEWU,2020.0,24.0,Tidak,Ikut,3.8,Wiraswasta,Sedang,4.0,Terima,1,1,1,0,Tidak Layak,Salah Terima
+507.0,RESITA SETIANINGRUM,S1 Farmasi | Reguler,P,Dekat,SMK BUMI NUSANTARA,2020.0,24.0,Tidak,Ikut,3.73,Wiraswasta,Rendah,4.0,Terima,1,1,1,0,Tidak Layak,Salah Terima
+521.0,ESTI INDAH LESTARI,S1 Farmasi | Reguler,P,Jauh,SMK MUHAMMADIYAH 3 METRO,2020.0,23.0,Ikut,Ikut,3.91,Pedagang,Sedang,4.0,Terima,1,1,0,0,Tidak Layak,Salah Terima
+533.0,KHONITA NURHAYATI,S1 Ilmu Komunikasi | Reguler,P,Dekat,SMA N 01 AIR NANINGAN,2020.0,23.0,Tidak,Ikut,3.75,Petani,Rendah,3.0,Terima,1,1,1,0,Tidak Layak,Salah Terima
+534.0,YURSILA AMARA,S1 Ilmu Komunikasi | Reguler,P,Jauh,SMAN 1 SUKOHARJO,2020.0,23.0,Tidak,Ikut,3.83,Wiraswasta,Sedang,3.0,Terima,1,1,1,0,Tidak Layak,Salah Terima
+545.0,Giraldo Ferrick,S1 Ilmu Komunikasi | Reguler,P,Jauh,Bekasi SMK Yatindo Bekasi,2018.0,20.0,Ikut,Tidak,3.14,Assistant Media Planner,Rendah,1.0,Tidak,0,0,0,0,Layak,Salah Tolak
+546.0,Norah Fairlaw,S1 Ilmu Komunikasi | Reguler,P,Jauh,SMAN 1 TALANGPADANG,2020.0,20.0,Tidak,Tidak,3.12,Nurse Practicioner,Rendah,1.0,Terima,1,1,0,0,Tidak Layak,Salah Terima
+550.0,Jarid Burril,S1 Ilmu Komunikasi | Reguler,L,Dekat,SMK Negeri 13 Bantargebang,2018.0,20.0,Ikut,Ikut,3.15,General Manager,Tinggi,1.0,Tidak,0,0,0,0,Layak,Salah Tolak
+554.0,Giralda Ownsworth,S1 Ilmu Komunikasi | Reguler,P,Dekat,SMA XAVERIUS PRINGSEWU,2019.0,20.0,Ikut,Tidak,3.68,Civil Engineer,Rendah,2.0,Tidak,0,0,0,0,Layak,Salah Tolak
+555.0,Xenia Orwin,S1 Ilmu Komunikasi | Reguler,P,Jauh,SMA Negeri 372 Jakarta,2020.0,21.0,Ikut,Ikut,3.39,Civil Engineer,Rendah,1.0,Tidak,0,0,0,0,Layak,Salah Tolak
+559.0,Ivor Shillitoe,S1 Ilmu Komunikasi | Reguler,P,Dekat,SMA N 1 BANDAR MATARAM,2020.0,20.0,Ikut,Tidak,3.5,Quality Engineer,Sedang,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+561.0,Gannon Jannex,S1 Ilmu Komunikasi | Reguler,P,Dekat,SMA N 1 PARDASUKA,2019.0,18.0,Tidak,Tidak,3.33,Executive Secretary,Tinggi,5.0,Tidak,0,0,0,0,Layak,Salah Tolak
+563.0,Kylen Pagden,S1 Ilmu Komunikasi | Reguler,P,Dekat,Bekasi SMK Yatindo Bekasi,2019.0,20.0,Tidak,Ikut,3.5,Legal Assistant,Sedang,5.0,Tidak,0,0,1,0,Layak,Salah Tolak
+565.0,Editha Gaskal,S1 Ilmu Komunikasi | Reguler,P,Jauh,SMK Negeri 3 Bekasi,2019.0,21.0,Ikut,Ikut,3.0,Technical Writer,Sedang,2.0,Terima,1,1,0,0,Tidak Layak,Salah Terima
+566.0,Clemmy Worthing,S1 Ilmu Komunikasi | Reguler,L,Dekat,SMA Negeri 9 Bekasi,2018.0,20.0,Tidak,Tidak,3.33,Teacher,Sedang,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+568.0,Gertrud Elener,S1 Ilmu Komunikasi | Reguler,P,Dekat,SMK Teratai Putih Bekasi,2018.0,18.0,Ikut,Tidak,3.0,Recruiting Manager,Sedang,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+569.0,Ulrich Rackstraw,S1 Ilmu Komunikasi | Reguler,P,Jauh,SMA Negeri 36 Malang,2018.0,20.0,Ikut,Ikut,3.11,Executive Secretary,Tinggi,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+570.0,Markos Santen,S1 Ilmu Komunikasi | Reguler,L,Jauh,SMK Teratai Putih Bekasi,2019.0,21.0,Ikut,Ikut,3.18,Cost Accountant,Tinggi,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+572.0,Fanchette Bonefant,S1 Ilmu Komunikasi | Reguler,P,Jauh,SMAN 1 SUKOHARJO,2018.0,21.0,Tidak,Ikut,3.4,Pharmacist,Rendah,4.0,Tidak,0,0,0,-1,Layak,Salah Tolak
+574.0,Ranice Guitt,S1 Ilmu Komunikasi | Reguler,P,Dekat,Bekasi SMK Yatindo Bekasi,2018.0,21.0,Tidak,Ikut,3.14,Information Systems Manager,Tinggi,5.0,Tidak,0,0,0,0,Layak,Salah Tolak
+575.0,Lacee Bartaletti,S1 Ilmu Komunikasi | Reguler,P,Dekat,Bekasi SMK Yatindo Bekasi,2019.0,18.0,Ikut,Tidak,3.68,Actuary,Rendah,2.0,Tidak,0,0,0,0,Layak,Salah Tolak
+577.0,Vaughn Lampens,S1 Ilmu Komunikasi | Reguler,P,Jauh,SMK SMTI BANDAR LAMPUNG,2018.0,20.0,Ikut,Tidak,3.76,Assistant Professor,Tinggi,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+578.0,Natty Harrowsmith,S1 Ilmu Komunikasi | Reguler,P,Jauh,SMK Negeri 13 Bantargebang,2019.0,21.0,Ikut,Ikut,3.1,Account Executive,Rendah,2.0,Tidak,0,0,0,0,Layak,Salah Tolak
+581.0,Charmion MacDearmid,S1 Ilmu Komunikasi | Reguler,L,Jauh,SMK SMTI BANDAR LAMPUNG,2018.0,18.0,Ikut,Ikut,3.19,Accountant II,Tinggi,2.0,Tidak,0,0,0,0,Layak,Salah Tolak
+583.0,Clarie Dufton,S1 Ilmu Komunikasi | Reguler,P,Dekat,MAN 1 PRINGSEWU,2018.0,18.0,Tidak,Tidak,3.68,Editor,Tinggi,2.0,Tidak,0,0,0,0,Layak,Salah Tolak
+584.0,Llewellyn Brolly,S1 Ilmu Komunikasi | Reguler,P,Jauh,MAN 3 PALEMBANG,2019.0,21.0,Ikut,Ikut,3.33,Safety Technician III,Tinggi,2.0,Tidak,0,0,0,0,Layak,Salah Tolak
+585.0,Mathilda Broscombe,S1 Ilmu Komunikasi | Reguler,L,Jauh,MAN 3 PALEMBANG,2018.0,20.0,Tidak,Tidak,3.1,Health Coach III,Sedang,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+586.0,Nikki Wessell,S1 Ilmu Komunikasi | Reguler,L,Jauh,SMK NEGERI 2 METRO,2019.0,20.0,Tidak,Tidak,3.11,Research Assistant III,Sedang,2.0,Tidak,0,0,0,0,Layak,Salah Tolak
+587.0,Gillie Kernley,S1 Ilmu Komunikasi | Reguler,L,Jauh,SMAN 1 KOTAAGUNG,2020.0,18.0,Tidak,Ikut,3.85,Data Coordinator,Sedang,2.0,Tidak,0,0,0,0,Layak,Salah Tolak
+588.0,Brittani Ivanchenkov,S1 Ilmu Komunikasi | Reguler,P,Dekat,Bekasi SMK Yatindo Bekasi,2019.0,20.0,Tidak,Tidak,3.18,Project Manager,Rendah,1.0,Tidak,0,0,0,0,Layak,Salah Tolak
+589.0,Susanetta Harewood,S1 Ilmu Komunikasi | Reguler,L,Dekat,SMAN 1 SUKOHARJO,2018.0,21.0,Ikut,Ikut,3.57,Community Outreach Specialist,Rendah,2.0,Tidak,0,0,0,0,Layak,Salah Tolak
+592.0,Chet Bristowe,S1 Ilmu Komunikasi | Reguler,L,Jauh,SMAN 1 BANYUMAS,2020.0,21.0,Tidak,Ikut,3.41,Assistant Media Planner,Sedang,3.0,Terima,1,1,0,0,Tidak Layak,Salah Terima
+594.0,Bev Goodby,S1 Ilmu Komunikasi | Reguler,L,Dekat,SMK Negeri 13 Bantargebang,2018.0,20.0,Tidak,Ikut,3.33,Marketing Assistant,Sedang,2.0,Tidak,0,0,0,0,Layak,Salah Tolak
+596.0,Yovonnda Troyes,S1 Ilmu Komunikasi | Reguler,P,Dekat,SMA Negeri 36 Malang,2019.0,20.0,Ikut,Ikut,3.54,Structural Analysis Engineer,Tinggi,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+603.0,Kala Quinn,S1 Keperawatan | Reguler,L,Dekat,SMA N 1 PARDASUKA,2018.0,18.0,Tidak,Tidak,3.11,Nuclear Power Engineer,Sedang,5.0,Tidak,0,0,0,0,Layak,Salah Tolak
+605.0,Lolly Klimashevich,S1 Keperawatan | Reguler,L,Dekat,SMK Negeri 13 Bantargebang,2019.0,20.0,Ikut,Tidak,3.16,Software Consultant,Rendah,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+606.0,Shaw Castiglione,S1 Keperawatan | Reguler,P,Jauh,MAN 1 PRINGSEWU,2019.0,21.0,Ikut,Ikut,3.54,Financial Advisor,Tinggi,1.0,Tidak,0,0,0,0,Layak,Salah Tolak
+609.0,Maureene Lickorish,S1 Keperawatan | Reguler,L,Jauh,MAN 1 PRINGSEWU,2020.0,21.0,Tidak,Ikut,3.0,Account Representative I,Rendah,5.0,Tidak,0,0,0,0,Layak,Salah Tolak
+610.0,Lora Prydden,S1 Keperawatan | Reguler,L,Dekat,SMAN 1 BANYUMAS,2018.0,18.0,Tidak,Tidak,3.42,Operator,Sedang,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+612.0,Farlie Boston,S1 Keperawatan | Reguler,L,Jauh,SMA N 1 BANDAR MATARAM,2019.0,20.0,Tidak,Ikut,3.14,Administrative Officer,Tinggi,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+615.0,Issy Hek,S1 Keperawatan | Reguler,P,Dekat,SMA N 1 BANDAR MATARAM,2019.0,20.0,Tidak,Tidak,3.85,Staff Scientist,Rendah,5.0,Tidak,0,0,0,0,Layak,Salah Tolak
+622.0,Chip Verrier,S1 Keperawatan | Reguler,L,Jauh,SMA Negeri 7 Jakarta,2019.0,18.0,Tidak,Ikut,3.12,Librarian,Tinggi,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+625.0,Carleton Heskins,S1 Keperawatan | Reguler,P,Jauh,SMA Negeri 36 Malang,2018.0,18.0,Ikut,Ikut,3.18,Human Resources Assistant I,Tinggi,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+627.0,Jackqueline Cain,S1 Keperawatan | Reguler,P,Dekat,SMAN 1 TALANGPADANG,2018.0,18.0,Tidak,Ikut,3.33,Accountant IV,Rendah,4.0,Tidak,0,0,1,0,Layak,Salah Tolak
+628.0,Noel Glasman,S1 Keperawatan | Reguler,L,Dekat,SMAN 1 TALANGPADANG,2020.0,21.0,Ikut,Tidak,3.14,Research Nurse,Sedang,1.0,Tidak,0,0,0,0,Layak,Salah Tolak
+630.0,Kristen Hebbs,S1 Keperawatan | Reguler,P,Dekat,SMK Teratai Putih Bekasi,2020.0,20.0,Tidak,Tidak,3.4,Legal Assistant,Sedang,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+633.0,Scarface Popelay,S1 Keperawatan | Reguler,P,Jauh,SMA Negeri 88 Bandung,2018.0,20.0,Tidak,Ikut,3.16,Geological Engineer,Tinggi,5.0,Tidak,0,0,0,0,Layak,Salah Tolak
+634.0,Colleen Habbin,S1 Keperawatan | Reguler,P,Jauh,SMA XAVERIUS PRINGSEWU,2019.0,18.0,Tidak,Tidak,3.85,Programmer I,Sedang,2.0,Tidak,0,0,0,0,Layak,Salah Tolak
+636.0,Norry Juan,S1 Keperawatan | Reguler,P,Jauh,SMK Negeri 3 Bekasi,2020.0,21.0,Tidak,Tidak,3.19,Design Engineer,Tinggi,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+637.0,Nicola De Santos,S1 Keperawatan | Reguler,L,Dekat,SMAN 1 TALANGPADANG,2019.0,21.0,Ikut,Ikut,3.54,Staff Scientist,Rendah,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+646.0,Brendan Novelli,S1 Keperawatan | Reguler,P,Jauh,SMA N 1 BANDAR MATARAM,2018.0,20.0,Ikut,Ikut,3.12,Media Manager IV,Rendah,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+647.0,Wadsworth Tevelov,S1 Keperawatan | Reguler,L,Dekat,SMAN 15 BANDAR LAMPUNG,2020.0,18.0,Ikut,Tidak,3.17,Dental Hygienist,Tinggi,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+649.0,Sonia Rowbotham,S1 Keperawatan | Reguler,P,Jauh,SMK Teratai Putih Bekasi,2018.0,21.0,Tidak,Ikut,3.57,VP Quality Control,Tinggi,3.0,Terima,1,1,1,0,Tidak Layak,Salah Terima
+650.0,Camala Laborda,S1 Keperawatan | Reguler,L,Dekat,SMK SMTI BANDAR LAMPUNG,2018.0,18.0,Ikut,Tidak,3.39,Clinical Specialist,Rendah,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+652.0,Sal Fern,S1 Keperawatan | Reguler,P,Jauh,SMA XAVERIUS PRINGSEWU,2018.0,18.0,Ikut,Tidak,3.39,Occupational Therapist,Tinggi,5.0,Tidak,0,0,0,0,Layak,Salah Tolak
+653.0,Madelina Palley,S1 Keperawatan | Reguler,L,Jauh,SMA Negeri 36 Malang,2018.0,20.0,Ikut,Tidak,3.14,Desktop Support Technician,Tinggi,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+654.0,Octavius Parcell,S1 Keperawatan | Reguler,L,Dekat,MAN 3 PALEMBANG,2018.0,21.0,Tidak,Ikut,3.0,Librarian,Sedang,5.0,Tidak,0,0,0,0,Layak,Salah Tolak
+655.0,Donn Pickervance,S1 Keperawatan | Reguler,P,Dekat,SMK Negeri 13 Bantargebang,2019.0,20.0,Tidak,Ikut,3.5,Senior Editor,Tinggi,3.0,Terima,1,1,1,0,Tidak Layak,Salah Terima
+658.0,Morie Duplan,S1 Keperawatan | Reguler,P,Jauh,SMK YP 96 BUKIT KEMUNING,2018.0,21.0,Tidak,Ikut,3.1,Senior Editor,Tinggi,3.0,Terima,1,1,1,0,Tidak Layak,Salah Terima
+659.0,Delbert Berthelet,S1 Keperawatan | Reguler,P,Dekat,SMAN 15 BANDAR LAMPUNG,2018.0,21.0,Tidak,Ikut,3.11,Financial Advisor,Tinggi,5.0,Tidak,0,0,0,0,Layak,Salah Tolak
+660.0,Franny McAvin,S1 Keperawatan | Reguler,L,Jauh,SMAN 1 BANYUMAS,2020.0,20.0,Ikut,Tidak,3.18,Environmental Specialist,Rendah,5.0,Tidak,0,0,0,0,Layak,Salah Tolak
+661.0,Guthrey Menis,S1 Keperawatan | Reguler,L,Dekat,SMK Teratai Putih Bekasi,2020.0,21.0,Ikut,Tidak,3.11,Human Resources Assistant III,Rendah,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+662.0,Nikolai Schistl,S1 Keperawatan | Reguler,L,Jauh,MAN 3 PALEMBANG,2020.0,18.0,Tidak,Ikut,3.0,Geologist III,Rendah,2.0,Terima,1,1,0,0,Tidak Layak,Salah Terima
+663.0,Valina Sherington,S1 Keperawatan | Reguler,L,Jauh,SMK SMTI BANDAR LAMPUNG,2020.0,20.0,Tidak,Tidak,3.15,Engineer I,Rendah,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+666.0,Ronna Fassbindler,S1 Keperawatan | Reguler,P,Dekat,SMK SMTI BANDAR LAMPUNG,2019.0,21.0,Tidak,Tidak,3.14,Account Representative IV,Sedang,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+669.0,Helli Mann,S1 Keperawatan | Reguler,L,Jauh,SMAN 1 BANYUMAS,2018.0,20.0,Tidak,Ikut,3.19,Civil Engineer,Rendah,1.0,Tidak,0,0,0,0,Layak,Salah Tolak
+671.0,Issiah Goreisr,S1 Keperawatan | Reguler,P,Jauh,SMA Negeri 9 Bekasi,2019.0,18.0,Ikut,Tidak,3.16,Graphic Designer,Sedang,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+672.0,Arthur Obington,S1 Matematika | Reguler,P,Dekat,SMAN 1 KOTAAGUNG,2020.0,18.0,Ikut,Ikut,3.17,Assistant Manager,Rendah,1.0,Tidak,0,0,0,0,Layak,Salah Tolak
+673.0,Lezley Kilmary,S1 Matematika | Reguler,P,Jauh,SMA Negeri 88 Bandung,2019.0,18.0,Ikut,Ikut,3.13,Actuary,Sedang,2.0,Tidak,0,0,0,0,Layak,Salah Tolak
+675.0,Drucy MacGorrie,S1 Matematika | Reguler,L,Dekat,SMAN 1 SUKOHARJO,2019.0,18.0,Tidak,Ikut,3.13,Database Administrator II,Sedang,2.0,Tidak,0,0,0,0,Layak,Salah Tolak
+676.0,Jeanne MacAnellye,S1 Matematika | Reguler,L,Jauh,SMAN 1 KOTAAGUNG,2018.0,21.0,Ikut,Tidak,3.1,Assistant Media Planner,Rendah,5.0,Tidak,0,0,0,0,Layak,Salah Tolak
+680.0,Martelle Bartod,S1 Matematika | Reguler,P,Jauh,SMA N 1 BANDAR MATARAM,2020.0,21.0,Ikut,Tidak,3.41,Safety Technician II,Tinggi,1.0,Tidak,0,0,0,0,Layak,Salah Tolak
+682.0,Anastasia Whitley,S1 Matematika | Reguler,L,Jauh,SMK SMTI BANDAR LAMPUNG,2018.0,18.0,Tidak,Tidak,3.57,Help Desk Operator,Sedang,2.0,Tidak,0,0,0,0,Layak,Salah Tolak
+684.0,Ramona Hammonds,S1 Matematika | Reguler,P,Dekat,Bekasi SMK Yatindo Bekasi,2018.0,21.0,Ikut,Tidak,3.57,Environmental Tech,Sedang,2.0,Tidak,0,0,0,0,Layak,Salah Tolak
+686.0,Nick Stanyland,S1 Matematika | Reguler,P,Dekat,SMAN 1 TALANGPADANG,2020.0,18.0,Ikut,Tidak,3.68,Teacher,Sedang,1.0,Tidak,0,0,0,0,Layak,Salah Tolak
+688.0,Penrod Lidgley,S1 Matematika | Reguler,L,Jauh,SMA Negeri 372 Jakarta,2019.0,21.0,Tidak,Tidak,3.17,Budget/Accounting Analyst I,Rendah,1.0,Tidak,0,0,0,0,Layak,Salah Tolak
+692.0,Odessa Guerrieri,S1 Matematika | Reguler,L,Dekat,SMAN 1 SUKOHARJO,2019.0,20.0,Ikut,Ikut,3.39,Community Outreach Specialist,Rendah,1.0,Tidak,0,0,0,0,Layak,Salah Tolak
+693.0,Harland Wadie,S1 Matematika | Reguler,P,Dekat,SMA N 1 ULU BELU,2018.0,21.0,Tidak,Ikut,3.13,Financial Advisor,Rendah,3.0,Tidak,0,0,1,0,Layak,Salah Tolak
+695.0,Harrietta Peyton,S1 Matematika | Reguler,P,Dekat,SMK NEGERI 2 METRO,2020.0,20.0,Ikut,Tidak,3.85,Quality Control Specialist,Tinggi,5.0,Tidak,0,0,0,0,Layak,Salah Tolak
+696.0,Gabbie Crichton,S1 Matematika | Reguler,L,Jauh,SMAN 1 BANYUMAS,2020.0,18.0,Ikut,Tidak,3.39,Physical Therapy Assistant,Sedang,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+697.0,Darby Troy,S1 Matematika | Reguler,L,Dekat,SMA Negeri 372 Jakarta,2020.0,21.0,Tidak,Tidak,3.19,Computer Systems Analyst IV,Sedang,1.0,Tidak,0,0,0,0,Layak,Salah Tolak
+702.0,Katuscha Moule,S1 Matematika | Reguler,P,Dekat,MAN 1 PRINGSEWU,2018.0,20.0,Ikut,Tidak,3.0,Sales Representative,Sedang,2.0,Tidak,0,0,0,0,Layak,Salah Tolak
+706.0,Francklin Jenks,S1 Matematika | Reguler,P,Jauh,SMAN 1 SUKOHARJO,2019.0,21.0,Tidak,Tidak,3.0,Geologist II,Sedang,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+707.0,Odey Dossantos,S1 Matematika | Reguler,P,Dekat,SMA Negeri 36 Malang,2018.0,20.0,Tidak,Tidak,3.41,Graphic Designer,Sedang,1.0,Tidak,0,0,0,0,Layak,Salah Tolak
+710.0,Violetta Jantel,S1 Matematika | Reguler,P,Dekat,SMAN 15 BANDAR LAMPUNG,2019.0,18.0,Ikut,Ikut,3.15,Help Desk Technician,Tinggi,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+711.0,Vania Sleigh,S1 Matematika | Reguler,P,Jauh,SMK Teratai Putih Bekasi,2020.0,18.0,Tidak,Tidak,3.57,Marketing Manager,Tinggi,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+712.0,Haslett Tompsett,S1 Matematika | Reguler,L,Dekat,SMA Negeri 36 Malang,2018.0,18.0,Ikut,Ikut,3.4,Senior Cost Accountant,Sedang,1.0,Tidak,0,0,0,0,Layak,Salah Tolak
+713.0,Hadleigh Rivard,S1 Matematika | Reguler,L,Jauh,SMAN 1 SUKOHARJO,2020.0,21.0,Ikut,Tidak,3.13,Safety Technician I,Rendah,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+717.0,Aurel Jerschke,S1 Matematika | Reguler,P,Jauh,SMAN 1 BANYUMAS,2019.0,21.0,Tidak,Ikut,3.0,Social Worker,Tinggi,2.0,Terima,1,1,1,0,Tidak Layak,Salah Terima
+718.0,Hughie Boddis,S1 Matematika | Reguler,P,Jauh,MAN 3 PALEMBANG,2018.0,20.0,Ikut,Tidak,3.19,Developer III,Tinggi,1.0,Tidak,0,0,0,0,Layak,Salah Tolak
+719.0,Norry Twamley,S1 Matematika | Reguler,P,Dekat,SMK SMTI BANDAR LAMPUNG,2020.0,21.0,Ikut,Ikut,3.5,Internal Auditor,Sedang,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+723.0,Arne Talks,S1 Matematika | Reguler,L,Dekat,SMAN 1 BANYUMAS,2020.0,18.0,Ikut,Ikut,3.1,Help Desk Operator,Tinggi,1.0,Tidak,0,0,0,0,Layak,Salah Tolak
+724.0,Derward Bartoletti,S1 Matematika | Reguler,L,Dekat,MAN 1 PRINGSEWU,2019.0,20.0,Tidak,Ikut,3.54,Physical Therapy Assistant,Tinggi,2.0,Terima,1,1,0,0,Tidak Layak,Salah Terima
+726.0,Niels Norton,S1 Matematika | Reguler,P,Dekat,SMK NEGERI 2 METRO,2018.0,20.0,Tidak,Ikut,3.18,Media Manager III,Rendah,1.0,Terima,1,1,1,0,Tidak Layak,Salah Terima
+729.0,Flem Cheyne,S1 Matematika | Reguler,L,Jauh,MAN 3 PALEMBANG,2020.0,21.0,Tidak,Tidak,3.11,Staff Accountant II,Tinggi,1.0,Terima,1,1,0,0,Tidak Layak,Salah Terima
+730.0,Geri Dudgeon,S1 Matematika | Reguler,L,Dekat,SMAN 1 BANYUMAS,2020.0,18.0,Tidak,Tidak,3.41,Engineer IV,Rendah,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+732.0,Tina Torry,S1 Matematika | Reguler,L,Dekat,SMAN 1 KOTAAGUNG,2018.0,18.0,Ikut,Ikut,3.33,Financial Analyst,Rendah,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+733.0,Elihu Heyworth,S1 Matematika | Reguler,P,Jauh,SMA N 1 PARDASUKA,2020.0,20.0,Tidak,Tidak,3.16,Account Executive,Tinggi,1.0,Tidak,0,0,0,0,Layak,Salah Tolak
+735.0,Nicola Thing,S1 Psikolog | Reguler,L,Jauh,SMA Negeri 7 Jakarta,2019.0,20.0,Ikut,Ikut,3.12,Food Chemist,Rendah,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+736.0,Dennie Auger,S1 Psikolog | Reguler,L,Dekat,SMA Negeri 88 Bandung,2019.0,21.0,Ikut,Ikut,3.57,Electrical Engineer,Sedang,2.0,Tidak,0,0,0,0,Layak,Salah Tolak
+737.0,Angele Januszewicz,S1 Psikolog | Reguler,L,Jauh,SMA XAVERIUS PRINGSEWU,2020.0,21.0,Ikut,Ikut,3.14,Structural Engineer,Rendah,5.0,Tidak,0,0,0,0,Layak,Salah Tolak
+742.0,Shellie Carberry,S1 Psikolog | Reguler,L,Jauh,SMA Negeri 7 Jakarta,2018.0,18.0,Ikut,Ikut,3.1,Compensation Analyst,Rendah,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+744.0,Ed Singers,S1 Psikolog | Reguler,P,Jauh,SMA Negeri 36 Malang,2020.0,21.0,Ikut,Tidak,3.19,Desktop Support Technician,Rendah,5.0,Tidak,0,0,0,0,Layak,Salah Tolak
+746.0,Wynny Buckenham,S1 Psikolog | Reguler,L,Jauh,MAN 3 PALEMBANG,2020.0,20.0,Tidak,Tidak,3.17,Research Nurse,Tinggi,1.0,Terima,1,1,0,0,Tidak Layak,Salah Terima
+747.0,Stacia Clegg,S1 Psikolog | Reguler,P,Dekat,SMA N 1 BANDAR MATARAM,2018.0,20.0,Tidak,Tidak,3.14,Chemical Engineer,Sedang,2.0,Tidak,0,0,0,0,Layak,Salah Tolak
+748.0,Ceil Pidgeon,S1 Psikolog | Reguler,P,Jauh,Bekasi SMK Yatindo Bekasi,2018.0,18.0,Tidak,Tidak,3.16,Accounting Assistant IV,Rendah,2.0,Tidak,0,0,0,0,Layak,Salah Tolak
+752.0,Jeremias Matthewson,S1 Psikolog | Reguler,L,Dekat,Bekasi SMK Yatindo Bekasi,2018.0,20.0,Tidak,Ikut,3.18,Recruiting Manager,Tinggi,1.0,Terima,1,1,0,0,Tidak Layak,Salah Terima
+754.0,Kirby Sheran,S1 Psikolog | Reguler,P,Jauh,SMA N 1 ULU BELU,2018.0,21.0,Ikut,Ikut,3.42,Associate Professor,Sedang,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+758.0,Deana Pilger,S1 Psikolog | Reguler,L,Jauh,SMA N 1 PARDASUKA,2020.0,18.0,Ikut,Ikut,3.39,Environmental Tech,Tinggi,1.0,Tidak,0,0,0,0,Layak,Salah Tolak
+762.0,Shanon Le Huquet,S1 Psikolog | Reguler,L,Dekat,SMA Negeri 88 Bandung,2018.0,20.0,Ikut,Tidak,3.16,Director of Sales,Sedang,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+764.0,Leonelle Hopkynson,S1 Psikolog | Reguler,L,Jauh,MAN 1 PRINGSEWU,2018.0,21.0,Ikut,Ikut,3.12,Research Associate,Sedang,1.0,Tidak,0,0,0,0,Layak,Salah Tolak
+767.0,Ashla Lipmann,S1 Psikolog | Reguler,P,Dekat,MAN 3 PALEMBANG,2018.0,18.0,Tidak,Tidak,3.76,Software Consultant,Sedang,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+768.0,Rafaellle Withers,S1 Psikolog | Reguler,L,Jauh,MAN 1 PRINGSEWU,2018.0,18.0,Ikut,Tidak,3.54,Pharmacist,Tinggi,1.0,Tidak,0,0,0,0,Layak,Salah Tolak
+769.0,Inez Oliver,S1 Psikolog | Reguler,L,Jauh,SMAN 1 KOTAAGUNG,2018.0,20.0,Tidak,Tidak,3.0,Database Administrator III,Tinggi,2.0,Tidak,0,0,0,0,Layak,Salah Tolak
+770.0,Noam d' Eye,S1 Psikolog | Reguler,L,Jauh,SMA XAVERIUS PRINGSEWU,2020.0,20.0,Ikut,Tidak,3.41,Financial Analyst,Rendah,2.0,Tidak,0,0,0,0,Layak,Salah Tolak
+772.0,Justinn Adelsberg,S1 Psikolog | Reguler,P,Jauh,SMAN 1 TALANGPADANG,2019.0,18.0,Tidak,Ikut,3.12,Librarian,Tinggi,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+773.0,Donnell Linham,S1 Psikolog | Reguler,P,Dekat,SMAN 15 BANDAR LAMPUNG,2019.0,21.0,Tidak,Tidak,3.42,Desktop Support Technician,Tinggi,2.0,Tidak,0,0,0,0,Layak,Salah Tolak
+774.0,Rudyard McIlhatton,S1 Psikolog | Reguler,P,Jauh,SMA N 1 ULU BELU,2018.0,18.0,Tidak,Tidak,3.15,Senior Developer,Rendah,5.0,Tidak,0,0,0,0,Layak,Salah Tolak
+778.0,Pat Canham,S1 Psikolog | Reguler,L,Dekat,SMAN 1 TALANGPADANG,2019.0,21.0,Ikut,Tidak,3.15,Programmer IV,Tinggi,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+781.0,Eldin Voules,S1 Psikolog | Reguler,L,Dekat,SMA Negeri 88 Bandung,2018.0,21.0,Ikut,Ikut,3.11,Technical Writer,Rendah,2.0,Tidak,0,0,0,0,Layak,Salah Tolak
+783.0,Hyatt Tribble,S1 Psikolog | Reguler,L,Jauh,SMA N 1 PARDASUKA,2019.0,21.0,Tidak,Tidak,3.41,Account Representative II,Rendah,2.0,Tidak,0,0,0,0,Layak,Salah Tolak
+785.0,Thornton Ollis,S1 Psikolog | Reguler,L,Dekat,SMA N 1 PARDASUKA,2020.0,18.0,Ikut,Ikut,3.42,Associate Professor,Tinggi,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+786.0,Datha Kubik,S1 Psikolog | Reguler,P,Dekat,SMAN 1 SUKOHARJO,2018.0,21.0,Ikut,Tidak,3.12,Civil Engineer,Sedang,1.0,Tidak,0,0,0,0,Layak,Salah Tolak
+789.0,Nilson Paten,S1 Psikolog | Reguler,L,Dekat,SMK SMTI BANDAR LAMPUNG,2018.0,21.0,Tidak,Ikut,3.1,Research Associate,Sedang,1.0,Terima,1,1,0,0,Tidak Layak,Salah Terima
+792.0,Brennen Spirritt,S1 Psikolog | Reguler,P,Jauh,SMAN 1 KOTAAGUNG,2018.0,21.0,Ikut,Tidak,3.18,Tax Accountant,Tinggi,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+800.0,Rachael Paulson,S1 Sastra Inggris | Reguler,L,Jauh,SMA XAVERIUS PRINGSEWU,2018.0,20.0,Tidak,Tidak,3.39,VP Accounting,Tinggi,1.0,Tidak,0,0,0,0,Layak,Salah Tolak
+801.0,Karil Fyall,S1 Sastra Inggris | Reguler,L,Jauh,SMA N 1 ULU BELU,2018.0,18.0,Tidak,Ikut,3.19,Recruiting Manager,Tinggi,1.0,Tidak,0,0,1,0,Layak,Salah Tolak
+803.0,Waverley McFeat,S1 Sastra Inggris | Reguler,L,Dekat,Bekasi SMK Yatindo Bekasi,2018.0,18.0,Ikut,Ikut,3.19,Professor,Rendah,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+804.0,Francesco Seeds,S1 Sastra Inggris | Reguler,P,Dekat,SMA N 1 ULU BELU,2020.0,18.0,Ikut,Tidak,3.13,Associate Professor,Sedang,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+810.0,Merrick Erangey,S1 Sastra Inggris | Reguler,L,Jauh,SMK Negeri 13 Bantargebang,2018.0,20.0,Tidak,Ikut,3.54,Tax Accountant,Sedang,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+811.0,Rem Ketchell,S1 Sastra Inggris | Reguler,L,Jauh,SMK Yapin,2019.0,21.0,Ikut,Tidak,3.1,Legal Assistant,Sedang,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+814.0,Flint Arter,S1 Sastra Inggris | Reguler,L,Dekat,MAN 3 PALEMBANG,2018.0,18.0,Tidak,Ikut,3.33,Data Coordinator,Tinggi,5.0,Tidak,0,0,0,0,Layak,Salah Tolak
+815.0,Patricio Pellett,S1 Sastra Inggris | Reguler,P,Dekat,SMA Negeri 9 Bekasi,2020.0,20.0,Tidak,Tidak,3.15,Software Test Engineer I,Sedang,4.0,Terima,1,1,0,0,Tidak Layak,Salah Terima
+816.0,Tori Bramsen,S1 Sastra Inggris | Reguler,P,Jauh,SMA Negeri 36 Malang,2019.0,18.0,Ikut,Ikut,3.11,Senior Cost Accountant,Rendah,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+817.0,Gibb Chivers,S1 Sastra Inggris | Reguler,P,Jauh,SMA N 1 PARDASUKA,2019.0,20.0,Tidak,Ikut,3.41,Mechanical Systems Engineer,Tinggi,1.0,Terima,1,1,1,0,Tidak Layak,Salah Terima
+819.0,Obadias Anneslie,S1 Sastra Inggris | Reguler,L,Jauh,MAN 1 PRINGSEWU,2018.0,18.0,Tidak,Ikut,3.17,Geological Engineer,Rendah,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+820.0,Darda Sapir,S1 Sastra Inggris | Reguler,L,Dekat,SMA N 1 PARDASUKA,2020.0,20.0,Tidak,Tidak,3.54,Administrative Officer,Rendah,5.0,Tidak,0,0,0,0,Layak,Salah Tolak
+822.0,Granger Caldroni,S1 Sastra Inggris | Reguler,L,Dekat,SMK YP 96 BUKIT KEMUNING,2019.0,20.0,Tidak,Tidak,3.39,Account Executive,Rendah,2.0,Tidak,0,0,0,0,Layak,Salah Tolak
+823.0,Alayne Frean,S1 Sastra Inggris | Reguler,P,Jauh,SMA XAVERIUS PRINGSEWU,2018.0,18.0,Ikut,Ikut,3.17,Research Assistant II,Sedang,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+828.0,Mano Lankester,S1 Sastra Inggris | Reguler,P,Jauh,MAN 1 PRINGSEWU,2019.0,20.0,Ikut,Tidak,3.4,Recruiter,Sedang,1.0,Tidak,0,0,0,0,Layak,Salah Tolak
+829.0,Francesco Salvador,S1 Sastra Inggris | Reguler,P,Dekat,SMAN 15 BANDAR LAMPUNG,2019.0,18.0,Tidak,Tidak,3.19,Physical Therapy Assistant,Sedang,2.0,Tidak,0,0,0,0,Layak,Salah Tolak
+830.0,Gael Greeve,S1 Sastra Inggris | Reguler,L,Dekat,SMA N 1 PARDASUKA,2020.0,20.0,Ikut,Tidak,3.5,Speech Pathologist,Sedang,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+831.0,Laurie Caddy,S1 Sastra Inggris | Reguler,P,Dekat,SMA N 1 BANDAR MATARAM,2018.0,18.0,Ikut,Ikut,3.17,Analyst Programmer,Rendah,5.0,Tidak,0,0,0,0,Layak,Salah Tolak
+833.0,Sophey Birkwood,S1 Sastra Inggris | Reguler,L,Dekat,SMA Negeri 88 Bandung,2019.0,18.0,Tidak,Ikut,3.18,Junior Executive,Sedang,1.0,Terima,1,1,0,0,Tidak Layak,Salah Terima
+834.0,Emylee Scothorne,S1 Sastra Inggris | Reguler,L,Jauh,SMA Negeri 36 Malang,2020.0,21.0,Tidak,Ikut,3.39,Data Coordinator,Tinggi,1.0,Terima,1,1,0,0,Tidak Layak,Salah Terima
+835.0,Elnora Trass,S1 Sastra Inggris | Reguler,P,Dekat,SMAN 1 SUKOHARJO,2019.0,18.0,Ikut,Tidak,3.4,Geologist I,Tinggi,1.0,Tidak,0,0,0,0,Layak,Salah Tolak
+836.0,Goldarina Sute,S1 Sastra Inggris | Reguler,L,Jauh,SMA N 1 BANDAR MATARAM,2018.0,18.0,Tidak,Tidak,3.4,Technical Writer,Rendah,2.0,Tidak,0,0,0,0,Layak,Salah Tolak
+838.0,Brantley Gallop,S1 Sastra Inggris | Reguler,L,Dekat,SMAN 1 KOTAAGUNG,2018.0,18.0,Ikut,Tidak,3.42,Payment Adjustment Coordinator,Tinggi,1.0,Tidak,0,0,0,0,Layak,Salah Tolak
+841.0,Lorraine Franseco,S1 Sastra Inggris | Reguler,L,Dekat,SMA N 1 ULU BELU,2020.0,20.0,Tidak,Ikut,3.12,Tax Accountant,Tinggi,2.0,Terima,1,1,1,0,Tidak Layak,Salah Terima
+842.0,Ivie Strode,S1 Sastra Inggris | Reguler,P,Jauh,SMK Teratai Putih Bekasi,2020.0,18.0,Ikut,Ikut,3.4,Director of Sales,Rendah,5.0,Tidak,0,0,0,0,Layak,Salah Tolak
+843.0,Ladonna Benet,S1 Sastra Inggris | Reguler,P,Jauh,SMAN 1 KOTAAGUNG,2020.0,20.0,Ikut,Ikut,3.16,Help Desk Technician,Sedang,5.0,Tidak,0,0,0,0,Layak,Salah Tolak
+844.0,Rozelle Garner,S1 Sastra Inggris | Reguler,P,Dekat,SMK YP 96 BUKIT KEMUNING,2018.0,21.0,Ikut,Ikut,3.1,Senior Cost Accountant,Sedang,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+845.0,Cull Mandre,S1 Sastra Inggris | Reguler,P,Jauh,SMAN 1 BANYUMAS,2019.0,18.0,Tidak,Tidak,3.15,Financial Advisor,Tinggi,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+847.0,Joete Klehn,S1 Sastra Inggris | Reguler,L,Dekat,SMK SMTI BANDAR LAMPUNG,2019.0,21.0,Tidak,Ikut,3.11,Senior Sales Associate,Sedang,5.0,Terima,1,1,0,0,Tidak Layak,Salah Terima
+850.0,Jard Grahlmans,S1 Sastra Inggris | Reguler,P,Jauh,SMA Negeri 372 Jakarta,2019.0,21.0,Ikut,Tidak,3.0,Speech Pathologist,Tinggi,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+851.0,Kelly Jerwood,S1 Sastra Inggris | Reguler,L,Dekat,SMA N 1 ULU BELU,2019.0,20.0,Tidak,Tidak,3.19,Sales Representative,Tinggi,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+852.0,Rand Sirmon,S1 Sastra Inggris | Reguler,P,Dekat,SMK Yapin,2018.0,18.0,Tidak,Ikut,3.4,VP Marketing,Sedang,1.0,Terima,1,1,1,0,Tidak Layak,Salah Terima
+853.0,Walsh Chellam,S1 Sastra Inggris | Reguler,P,Dekat,SMA XAVERIUS PRINGSEWU,2018.0,18.0,Tidak,Ikut,3.19,Occupational Therapist,Tinggi,5.0,Tidak,0,0,0,0,Layak,Salah Tolak
+855.0,Alexandre Lawfull,S1 Sastra Inggris | Reguler,P,Dekat,MAN 1 PRINGSEWU,2020.0,20.0,Tidak,Ikut,3.19,Computer Systems Analyst I,Rendah,5.0,Terima,1,1,1,0,Tidak Layak,Salah Terima
+858.0,Denys Scramage,S1 Sastra Inggris | Reguler,P,Dekat,SMA Negeri 9 Bekasi,2020.0,20.0,Ikut,Tidak,3.14,Staff Scientist,Rendah,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+864.0,Hildegarde Dovermann,S1 Sastra Inggris | Reguler,L,Dekat,SMK Negeri 13 Bantargebang,2019.0,20.0,Ikut,Ikut,3.41,Speech Pathologist,Tinggi,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+865.0,Merrill Kaminski,S1 Sastra Inggris | Reguler,L,Jauh,Bekasi SMK Yatindo Bekasi,2020.0,18.0,Ikut,Tidak,3.54,Speech Pathologist,Tinggi,1.0,Tidak,0,0,0,0,Layak,Salah Tolak
+868.0,Annabelle Clench,S1 Sastra Inggris | Reguler,P,Dekat,SMA Negeri 36 Malang,2020.0,21.0,Tidak,Tidak,3.17,Biostatistician IV,Rendah,2.0,Tidak,0,0,0,0,Layak,Salah Tolak
+869.0,Shelden Ismead,S1 Sastra Inggris | Reguler,P,Jauh,SMK YP 96 BUKIT KEMUNING,2018.0,21.0,Tidak,Ikut,3.15,Mechanical Systems Engineer,Tinggi,5.0,Tidak,0,0,0,0,Layak,Salah Tolak
+870.0,Tabbitha McCallister,S1 Sastra Inggris | Reguler,L,Dekat,MAN 1 PRINGSEWU,2018.0,21.0,Tidak,Ikut,3.85,Chemical Engineer,Sedang,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+872.0,Brittaney Wiltshier,S1 Sastra Inggris | Reguler,P,Dekat,SMK SMTI BANDAR LAMPUNG,2020.0,20.0,Ikut,Tidak,3.14,Geological Engineer,Sedang,2.0,Tidak,0,0,0,0,Layak,Salah Tolak
+877.0,Lane Sawney,S1 Sistem Komputer | Reguler,L,Jauh,SMA N 1 PARDASUKA,2020.0,21.0,Ikut,Tidak,3.54,VP Sales,Tinggi,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+879.0,Sheelagh Megainey,S1 Sistem Komputer | Reguler,L,Dekat,SMA N 1 BANDAR MATARAM,2018.0,18.0,Tidak,Tidak,3.5,Staff Accountant I,Sedang,2.0,Tidak,0,0,0,0,Layak,Salah Tolak
+880.0,Merla Caseley,S1 Sistem Komputer | Reguler,P,Dekat,SMAN 15 BANDAR LAMPUNG,2020.0,21.0,Ikut,Ikut,3.15,Web Developer IV,Tinggi,4.0,Terima,1,1,0,0,Tidak Layak,Salah Terima
+881.0,Gwenette January,S1 Sistem Komputer | Reguler,P,Jauh,SMA N 1 PARDASUKA,2019.0,21.0,Tidak,Tidak,3.5,Marketing Assistant,Sedang,5.0,Tidak,0,0,0,0,Layak,Salah Tolak
+883.0,Nicoline Sarvar,S1 Sistem Komputer | Reguler,P,Dekat,SMK SMTI BANDAR LAMPUNG,2019.0,18.0,Ikut,Tidak,3.12,Compensation Analyst,Tinggi,1.0,Tidak,0,0,0,0,Layak,Salah Tolak
+884.0,Stuart Soper,S1 Sistem Komputer | Reguler,L,Jauh,SMA N 1 BANDAR MATARAM,2018.0,20.0,Tidak,Ikut,3.76,Biostatistician IV,Sedang,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+886.0,Fremont Gossington,S1 Sistem Komputer | Reguler,P,Jauh,SMK Negeri 13 Bantargebang,2018.0,18.0,Ikut,Tidak,3.42,Junior Executive,Rendah,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+888.0,Nevins Corneliussen,S1 Sistem Komputer | Reguler,L,Jauh,SMAN 15 BANDAR LAMPUNG,2019.0,18.0,Tidak,Ikut,3.42,Web Designer II,Tinggi,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+894.0,Kimmy Rubra,S1 Sistem Komputer | Reguler,P,Jauh,SMK Teratai Putih Bekasi,2018.0,20.0,Tidak,Ikut,3.68,Technical Writer,Rendah,5.0,Tidak,0,0,0,-1,Layak,Salah Tolak
+898.0,Fredrika Bescoby,S1 Sistem Komputer | Reguler,L,Dekat,MAN 3 PALEMBANG,2020.0,21.0,Tidak,Ikut,3.76,Tax Accountant,Sedang,1.0,Terima,1,1,1,0,Tidak Layak,Salah Terima
+899.0,Kalina Punyer,S1 Sistem Komputer | Reguler,P,Dekat,SMA XAVERIUS PRINGSEWU,2018.0,20.0,Tidak,Ikut,3.17,GIS Technical Architect,Tinggi,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+900.0,Garrick Hoff,S1 Sistem Komputer | Reguler,P,Jauh,SMAN 1 BANYUMAS,2018.0,21.0,Ikut,Ikut,3.12,VP Quality Control,Tinggi,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+902.0,Carrol Boss,S1 Sistem Komputer | Reguler,L,Jauh,SMAN 1 TALANGPADANG,2018.0,20.0,Ikut,Ikut,3.39,VP Sales,Tinggi,2.0,Tidak,0,0,0,0,Layak,Salah Tolak
+904.0,Neville Ullett,S1 Sistem Komputer | Reguler,L,Dekat,SMA N 1 BANDAR MATARAM,2018.0,20.0,Tidak,Tidak,3.42,Developer I,Sedang,5.0,Tidak,0,0,0,0,Layak,Salah Tolak
+906.0,Dinnie Gwinnett,S1 Sistem Komputer | Reguler,L,Dekat,SMA XAVERIUS PRINGSEWU,2020.0,18.0,Ikut,Ikut,3.19,Business Systems Development Analyst,Rendah,5.0,Tidak,0,0,0,0,Layak,Salah Tolak
+908.0,Avrit Laraway,S1 Sistem Komputer | Reguler,L,Jauh,SMAN 1 TALANGPADANG,2018.0,21.0,Tidak,Tidak,3.4,Senior Sales Associate,Rendah,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+909.0,Boyce Linch,S1 Sistem Komputer | Reguler,L,Jauh,SMA Negeri 88 Bandung,2019.0,18.0,Ikut,Ikut,3.57,Librarian,Tinggi,1.0,Tidak,0,0,0,0,Layak,Salah Tolak
+910.0,Salmon Dart,S1 Sistem Komputer | Reguler,P,Dekat,SMK SMTI BANDAR LAMPUNG,2020.0,20.0,Ikut,Ikut,3.14,Software Engineer I,Tinggi,3.0,Terima,1,1,0,0,Tidak Layak,Salah Terima
+911.0,Eric Munnery,S1 Sistem Komputer | Reguler,P,Dekat,MAN 3 PALEMBANG,2018.0,18.0,Ikut,Tidak,3.39,Registered Nurse,Rendah,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+912.0,Dinnie Rupprecht,S1 Sistem Komputer | Reguler,L,Jauh,SMA Negeri 88 Bandung,2019.0,21.0,Ikut,Tidak,3.12,Assistant Media Planner,Tinggi,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+915.0,Krystle Aharoni,S1 Sistem Komputer | Reguler,P,Jauh,MAN 3 PALEMBANG,2020.0,21.0,Tidak,Tidak,3.19,Programmer Analyst III,Tinggi,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+916.0,Thomasina Poulton,S1 Sistem Komputer | Reguler,L,Dekat,SMAN 1 KOTAAGUNG,2019.0,18.0,Tidak,Ikut,3.41,Registered Nurse,Rendah,1.0,Terima,1,1,0,0,Tidak Layak,Salah Terima
+918.0,Joni Gerwood,S1 Sistem Komputer | Reguler,P,Jauh,SMK SMTI BANDAR LAMPUNG,2020.0,18.0,Tidak,Ikut,3.14,Graphic Designer,Tinggi,5.0,Tidak,0,0,0,0,Layak,Salah Tolak
+919.0,Barry Bushe,S1 Sistem Komputer | Reguler,L,Dekat,SMK Teratai Putih Bekasi,2018.0,18.0,Ikut,Tidak,3.85,Nuclear Power Engineer,Tinggi,4.0,Tidak,0,0,0,-1,Layak,Salah Tolak
+922.0,Norris Streeter,S1 Sistem Komputer | Reguler,P,Dekat,Bekasi SMK Yatindo Bekasi,2018.0,21.0,Tidak,Ikut,3.0,Chief Design Engineer,Tinggi,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+925.0,Brew Spivey,S1 Sistem Komputer | Reguler,P,Dekat,MAN 1 PRINGSEWU,2020.0,20.0,Tidak,Ikut,3.12,Information Systems Manager,Tinggi,2.0,Terima,1,1,1,0,Tidak Layak,Salah Terima
+926.0,Aubine McGillivray,S1 Sistem Komputer | Reguler,P,Jauh,MAN 1 PRINGSEWU,2018.0,18.0,Tidak,Tidak,3.16,Account Executive,Tinggi,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+927.0,Bobbi Anmore,S1 Sistem Komputer | Reguler,L,Jauh,SMA Negeri 9 Bekasi,2018.0,21.0,Tidak,Tidak,3.1,Compensation Analyst,Rendah,5.0,Tidak,0,0,0,0,Layak,Salah Tolak
+930.0,Dorree Tofanini,S1 Sistem Komputer | Reguler,P,Jauh,SMA Negeri 9 Bekasi,2020.0,20.0,Ikut,Tidak,3.12,Senior Sales Associate,Tinggi,1.0,Tidak,0,0,0,0,Layak,Salah Tolak
+931.0,Korie Bauldrey,S1 Sistem Komputer | Reguler,L,Jauh,SMK YP 96 BUKIT KEMUNING,2020.0,20.0,Ikut,Ikut,3.4,Executive Secretary,Rendah,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+935.0,Jacob Tendahl,S1 Teknik Elektro | Reguler,L,Dekat,SMA Negeri 9 Bekasi,2020.0,20.0,Ikut,Ikut,3.12,Environmental Tech,Rendah,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+936.0,Chalmers Gaze,S1 Teknik Elektro | Reguler,L,Dekat,SMA N 1 BANDAR MATARAM,2018.0,20.0,Ikut,Ikut,3.1,VP Marketing,Tinggi,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+937.0,Celestyn Trebbett,S1 Teknik Elektro | Reguler,P,Jauh,SMAN 1 BANYUMAS,2020.0,21.0,Tidak,Tidak,3.19,Speech Pathologist,Rendah,5.0,Tidak,0,0,0,0,Layak,Salah Tolak
+939.0,Foster Wooles,S1 Teknik Elektro | Reguler,P,Jauh,SMA N 1 PARDASUKA,2020.0,21.0,Ikut,Ikut,3.39,Analog Circuit Design manager,Rendah,1.0,Tidak,0,0,0,0,Layak,Salah Tolak
+940.0,Rebekkah Grayston,S1 Teknik Elektro | Reguler,P,Jauh,SMK YP 96 BUKIT KEMUNING,2019.0,21.0,Tidak,Tidak,3.57,Technical Writer,Tinggi,1.0,Terima,1,1,0,0,Tidak Layak,Salah Terima
+944.0,Selia Panchin,S1 Teknik Elektro | Reguler,L,Dekat,SMA Negeri 9 Bekasi,2020.0,18.0,Tidak,Ikut,3.4,Nurse,Sedang,2.0,Terima,1,1,0,0,Tidak Layak,Salah Terima
+952.0,Gail Fick,S1 Teknik Elektro | Reguler,L,Jauh,SMA Negeri 36 Malang,2019.0,21.0,Tidak,Ikut,3.16,Payment Adjustment Coordinator,Sedang,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+953.0,Valerie Gerrard,S1 Teknik Elektro | Reguler,P,Dekat,SMK Teratai Putih Bekasi,2018.0,21.0,Tidak,Ikut,3.16,Librarian,Rendah,2.0,Terima,1,1,1,0,Tidak Layak,Salah Terima
+954.0,Margalit Strattan,S1 Teknik Elektro | Reguler,L,Jauh,SMA Negeri 372 Jakarta,2018.0,18.0,Ikut,Ikut,3.76,VP Quality Control,Tinggi,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+958.0,Tracie Dollman,S1 Teknik Elektro | Reguler,L,Jauh,SMK YP 96 BUKIT KEMUNING,2020.0,21.0,Ikut,Ikut,3.18,Business Systems Development Analyst,Sedang,5.0,Tidak,0,0,0,0,Layak,Salah Tolak
+962.0,Danna Maffucci,S1 Teknik Elektro | Reguler,L,Dekat,MAN 1 PRINGSEWU,2020.0,18.0,Ikut,Tidak,3.5,Office Assistant III,Rendah,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+963.0,Denny Flecknoe,S1 Teknik Elektro | Reguler,L,Dekat,SMA N 1 PARDASUKA,2018.0,18.0,Tidak,Tidak,3.17,Budget/Accounting Analyst II,Tinggi,5.0,Tidak,0,0,0,0,Layak,Salah Tolak
+966.0,Carrissa Snook,S1 Teknik Elektro | Reguler,P,Dekat,SMA Negeri 36 Malang,2020.0,21.0,Tidak,Ikut,3.42,Recruiting Manager,Tinggi,2.0,Terima,1,1,1,0,Tidak Layak,Salah Terima
+967.0,Sheeree Renachowski,S1 Teknik Elektro | Reguler,P,Jauh,MAN 3 PALEMBANG,2019.0,21.0,Tidak,Ikut,3.12,Staff Accountant I,Tinggi,5.0,Terima,1,1,0,0,Tidak Layak,Salah Terima
+969.0,Anny Bogies,S1 Teknik Elektro | Reguler,P,Dekat,SMAN 1 SUKOHARJO,2020.0,18.0,Ikut,Ikut,3.41,Safety Technician III,Rendah,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+971.0,Carmelle McTerlagh,S1 Teknik Elektro | Reguler,L,Jauh,SMA Negeri 372 Jakarta,2019.0,21.0,Ikut,Ikut,3.85,Senior Sales Associate,Sedang,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+973.0,Asher Farquarson,S1 Teknik Elektro | Reguler,L,Jauh,SMA Negeri 372 Jakarta,2018.0,21.0,Tidak,Ikut,3.19,Registered Nurse,Tinggi,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+978.0,Daveta Wixey,S1 Teknik Elektro | Reguler,P,Dekat,SMK YP 96 BUKIT KEMUNING,2018.0,18.0,Tidak,Ikut,3.16,Quality Engineer,Rendah,2.0,Tidak,0,0,1,0,Layak,Salah Tolak
+979.0,Asa Ogus,S1 Teknik Elektro | Reguler,L,Jauh,SMA Negeri 9 Bekasi,2019.0,20.0,Ikut,Tidak,3.33,Occupational Therapist,Sedang,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+980.0,Goldarina Horrigan,S1 Teknik Elektro | Reguler,L,Jauh,SMA Negeri 372 Jakarta,2020.0,21.0,Ikut,Ikut,3.13,Project Manager,Tinggi,5.0,Tidak,0,0,0,0,Layak,Salah Tolak
+981.0,Ingar Chawkley,S1 Teknik Elektro | Reguler,P,Jauh,SMK Yapin,2018.0,20.0,Ikut,Ikut,3.33,Administrative Assistant I,Rendah,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+982.0,Janos Manilow,S1 Teknik Elektro | Reguler,L,Dekat,SMA N 1 ULU BELU,2019.0,21.0,Ikut,Ikut,3.57,VP Accounting,Sedang,2.0,Tidak,0,0,0,0,Layak,Salah Tolak
+985.0,Danica Eustanch,S1 Teknik Elektro | Reguler,L,Dekat,SMAN 1 SUKOHARJO,2019.0,20.0,Tidak,Tidak,3.5,Research Associate,Sedang,5.0,Tidak,0,0,0,0,Layak,Salah Tolak
+987.0,Svend Raynton,S1 Teknik Mesin | Reguler,L,Jauh,SMA Negeri 7 Jakarta,2020.0,20.0,Tidak,Ikut,3.15,Programmer II,Sedang,4.0,Terima,1,1,0,0,Tidak Layak,Salah Terima
+988.0,Gustave Oneal,S1 Teknik Mesin | Reguler,P,Jauh,SMAN 1 TALANGPADANG,2018.0,21.0,Ikut,Tidak,3.16,Assistant Manager,Rendah,2.0,Tidak,0,0,0,0,Layak,Salah Tolak
+991.0,Priscella Hockey,S1 Teknik Mesin | Reguler,L,Jauh,SMK YP 96 BUKIT KEMUNING,2020.0,21.0,Tidak,Ikut,3.85,Developer IV,Sedang,2.0,Terima,1,1,0,0,Tidak Layak,Salah Terima
+993.0,Michael Snibson,S1 Teknik Mesin | Reguler,P,Dekat,SMK NEGERI 2 METRO,2019.0,21.0,Ikut,Tidak,3.17,Design Engineer,Sedang,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+995.0,Jacquetta Howis,S1 Teknik Mesin | Reguler,P,Dekat,SMA XAVERIUS PRINGSEWU,2020.0,21.0,Ikut,Tidak,3.57,Human Resources Assistant II,Tinggi,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+996.0,Martie Raincin,S1 Teknik Mesin | Reguler,P,Dekat,SMAN 1 SUKOHARJO,2020.0,18.0,Tidak,Tidak,3.17,Director of Sales,Sedang,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+997.0,Giacobo Edlin,S1 Teknik Mesin | Reguler,P,Dekat,SMK NEGERI 2 METRO,2019.0,20.0,Tidak,Tidak,3.0,Database Administrator II,Tinggi,2.0,Tidak,0,0,0,0,Layak,Salah Tolak
+998.0,Ingram Demke,S1 Teknik Mesin | Reguler,P,Jauh,SMA Negeri 7 Jakarta,2018.0,21.0,Ikut,Tidak,3.14,Systems Administrator I,Sedang,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+999.0,Jenda Giorgioni,S1 Teknik Mesin | Reguler,P,Jauh,SMA Negeri 372 Jakarta,2018.0,21.0,Tidak,Ikut,3.1,Analyst Programmer,Rendah,2.0,Tidak,0,0,0,0,Layak,Salah Tolak
+1003.0,Felic Caltun,S1 Teknik Mesin | Reguler,P,Dekat,SMA Negeri 88 Bandung,2018.0,18.0,Ikut,Tidak,3.41,Technical Writer,Rendah,5.0,Tidak,0,0,0,0,Layak,Salah Tolak
+1004.0,Jacquie Fraser,S1 Teknik Mesin | Reguler,L,Jauh,SMA Negeri 36 Malang,2020.0,20.0,Ikut,Ikut,3.15,Dental Hygienist,Sedang,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+1006.0,Dyan Stovin,S1 Teknik Mesin | Reguler,P,Dekat,SMK Teratai Putih Bekasi,2020.0,18.0,Tidak,Ikut,3.4,Financial Analyst,Tinggi,2.0,Terima,1,1,1,0,Tidak Layak,Salah Terima
+1010.0,Cilka Gornar,S1 Teknik Mesin | Reguler,L,Dekat,MAN 1 PRINGSEWU,2019.0,20.0,Ikut,Ikut,3.17,Programmer Analyst I,Rendah,5.0,Tidak,0,0,0,0,Layak,Salah Tolak
+1013.0,Anatol Burnep,S1 Teknik Mesin | Reguler,P,Dekat,SMA Negeri 372 Jakarta,2018.0,21.0,Ikut,Ikut,3.0,VP Marketing,Sedang,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+1014.0,Ethe O'Lennachain,S1 Teknik Mesin | Reguler,P,Dekat,Bekasi SMK Yatindo Bekasi,2020.0,18.0,Ikut,Ikut,3.18,Geological Engineer,Tinggi,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+1018.0,Shannen Le Cornu,S1 Teknik Mesin | Reguler,P,Jauh,SMAN 1 SUKOHARJO,2020.0,20.0,Tidak,Tidak,3.4,Electrical Engineer,Sedang,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+1020.0,Kessiah O'Dyvoy,S1 Teknik Mesin | Reguler,P,Dekat,SMA N 1 ULU BELU,2018.0,20.0,Tidak,Ikut,3.12,Geologist III,Tinggi,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+1022.0,Danny Macey,S1 Teknik Mesin | Reguler,L,Jauh,SMAN 1 TALANGPADANG,2019.0,20.0,Tidak,Tidak,3.14,Geologist II,Tinggi,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+1024.0,Jozef Ricketts,S1 Teknik Mesin | Reguler,P,Dekat,SMA Negeri 36 Malang,2020.0,21.0,Ikut,Tidak,3.19,Registered Nurse,Sedang,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+1026.0,Maritsa Gouldthorpe,S1 Teknik Mesin | Reguler,L,Dekat,SMA Negeri 36 Malang,2019.0,20.0,Tidak,Tidak,3.18,Chief Design Engineer,Rendah,1.0,Tidak,0,0,0,0,Layak,Salah Tolak
+1027.0,Che Swanger,S1 Teknik Mesin | Reguler,P,Jauh,SMA N 1 BANDAR MATARAM,2018.0,18.0,Tidak,Tidak,3.76,Account Representative IV,Rendah,1.0,Tidak,0,0,0,0,Layak,Salah Tolak
+1028.0,Orly Arboine,S1 Teknik Mesin | Reguler,P,Dekat,SMAN 1 KOTAAGUNG,2020.0,18.0,Ikut,Tidak,3.68,Information Systems Manager,Rendah,5.0,Tidak,0,0,0,0,Layak,Salah Tolak
+1031.0,Wini Hayley,S1 Teknik Mesin | Reguler,L,Jauh,SMAN 1 KOTAAGUNG,2018.0,18.0,Tidak,Ikut,3.5,Junior Executive,Sedang,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
+1034.0,Hannis Lansdown,S1 Teknik Mesin | Reguler,L,Jauh,SMK Negeri 3 Bekasi,2018.0,18.0,Ikut,Ikut,3.13,Software Consultant,Sedang,1.0,Tidak,0,0,0,0,Layak,Salah Tolak
+1035.0,Charmain Segoe,S1 Teknik Mesin | Reguler,L,Jauh,SMA Negeri 372 Jakarta,2018.0,20.0,Ikut,Ikut,3.42,Senior Sales Associate,Sedang,1.0,Tidak,0,0,0,0,Layak,Salah Tolak
+1038.0,Octavius Linge,S1 Teknik Mesin | Reguler,P,Dekat,SMK Yapin,2019.0,20.0,Ikut,Ikut,3.18,Assistant Professor,Sedang,1.0,Tidak,0,0,0,0,Layak,Salah Tolak
+1039.0,Bertie Arlet,S1 Teknik Mesin | Reguler,P,Jauh,SMAN 1 KOTAAGUNG,2020.0,20.0,Ikut,Ikut,3.19,Professor,Tinggi,3.0,Terima,1,1,0,0,Tidak Layak,Salah Terima
+1040.0,Othella Booth,S1 Teknik Mesin | Reguler,L,Jauh,SMAN 1 SUKOHARJO,2018.0,21.0,Ikut,Tidak,3.0,Software Test Engineer I,Rendah,4.0,Tidak,0,0,0,0,Layak,Salah Tolak
+1042.0,Patrizia Shermar,S1 Teknik Mesin | Reguler,P,Dekat,SMK NEGERI 2 METRO,2018.0,18.0,Tidak,Tidak,3.33,Product Engineer,Tinggi,3.0,Tidak,0,0,0,0,Layak,Salah Tolak
