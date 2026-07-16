@@ -54,7 +54,7 @@ st.markdown("""
         letter-spacing: 0.05em;
     }
 </style>
-""", unsafe_value=True)
+""", unsafe_allow_html=True)
 
 # Helper function to load models safely
 @st.cache_resource
@@ -75,11 +75,11 @@ def load_ml_components():
 kmeans, prep = load_ml_components()
 
 # App Header
-st.markdown("<h1 class='main-title'>🎓 Sistem Pendukung Keputusan Kelayakan Beasiswa</h1>", unsafe_value=True)
-st.markdown("<p class='sub-title'>Analisis Objektif Transparan Menggunakan Algoritma Unsupervised Clustering K-Means</p>", unsafe_value=True)
+st.markdown("<h1 class='main-title'>🎓 Sistem Pendukung Keputusan Kelayakan Beasiswa</h1>", unsafe_allow_html=True)
+st.markdown("<p class='sub-title'>Analisis Objektif Transparan Menggunakan Algoritma Unsupervised Clustering K-Means</p>", unsafe_allow_html=True)
 
 # Sidebar Navigation
-st.sidebar.image("https://img.icons8.com/color/96/scholarship.png", width=90)
+st.sidebar.image("https://cdn-icons-png.magnific.com/512/11905/11905764.png", width=90)
 st.sidebar.title("Navigasi Menu")
 menu = st.sidebar.radio(
     "Pilih Halaman:",
@@ -98,20 +98,20 @@ if menu == "Dashboard EDA":
     with col1:
         st.subheader("1. Heatmap Korelasi Kriteria")
         if os.path.exists("app/assets/heatmap_korelasi.png"):
-            st.image("app/assets/heatmap_korelasi.png", use_container_width=True)
+            st.image("app/assets/heatmap_korelasi.png", width='stretch')
         else:
             st.info("Visualisasi `heatmap_korelasi.png` belum dibuat.")
             
     with col2:
         st.subheader("2. Boxplot Sebaran Kriteria Utama")
         if os.path.exists("app/assets/boxplot_perbandingan.png"):
-            st.image("app/assets/boxplot_perbandingan.png", use_container_width=True)
+            st.image("app/assets/boxplot_perbandingan.png", width='stretch')
         else:
             st.info("Visualisasi `boxplot_perbandingan.png` belum dibuat.")
             
     st.subheader("3. Analisis Hubungan IPK & Penghasilan Orang Tua")
     if os.path.exists("app/assets/scatter_ipk_penghasilan.png"):
-        st.image("app/assets/scatter_ipk_penghasilan.png", use_container_width=True)
+        st.image("app/assets/scatter_ipk_penghasilan.png", width='stretch')
     else:
         st.info("Visualisasi `scatter_ipk_penghasilan.png` belum dibuat.")
 
@@ -151,8 +151,8 @@ elif menu == "Model Demo (Form Input)":
             submit_btn = st.form_submit_button("Analisis Kelayakan")
             
         if submit_btn:
-            # Satukan data ke DataFrame
-            data_input = pd.DataFrame([{
+            # Satukan data ke Dictionary
+            raw_input = {
                 'Jenis Kelamin': jk,
                 'Jarak Tempat Tinggal kekampus (Km)': jarak,
                 'Tahun Lulus': float(tahun_lulus),
@@ -163,19 +163,23 @@ elif menu == "Model Demo (Form Input)":
                 'Pekerjaan Orang Tua': pekerjaan,
                 'Penghasilan': penghasilan,
                 'Tanggungan': float(tanggungan)
-            }])
+            }
             
             # Encode
-            data_encoded = data_input.copy()
-            for col in data_encoded.columns:
+            encoded_input = {}
+            for col, val in raw_input.items():
                 if col in le_dict:
                     le = le_dict[col]
-                    val = str(data_encoded.loc[0, col])
-                    if val in le.classes_:
-                        data_encoded.loc[0, col] = le.transform([val])[0]
+                    val_str = str(val)
+                    if val_str in le.classes_:
+                        encoded_input[col] = int(le.transform([val_str])[0])
                     else:
                         # Fallback jika ada kategori asing
-                        data_encoded.loc[0, col] = 0
+                        encoded_input[col] = 0
+                else:
+                    encoded_input[col] = val
+                    
+            data_encoded = pd.DataFrame([encoded_input])
             
             # Scale
             data_scaled = scaler.transform(data_encoded)
@@ -215,31 +219,31 @@ elif menu == "Evaluasi Model":
             <div class='metric-label'>Silhouette Score</div>
             <div class='metric-value'>0.1878</div>
         </div>
-        """, unsafe_value=True)
+        """, unsafe_allow_html=True)
     with col2:
         st.markdown("""
         <div class='card'>
             <div class='metric-label'>Davies-Bouldin Index</div>
             <div class='metric-value'>2.1339</div>
         </div>
-        """, unsafe_value=True)
+        """, unsafe_allow_html=True)
     with col3:
         st.markdown("""
         <div class='card'>
             <div class='metric-label'>Optimal Cluster (k)</div>
             <div class='metric-value'>2</div>
         </div>
-        """, unsafe_value=True)
+        """, unsafe_allow_html=True)
         
     st.subheader("Confusion Matrix (K-Means vs Ground Truth)")
     if os.path.exists("app/assets/confusion_matrix.png"):
-        st.image("app/assets/confusion_matrix.png", use_container_width=True)
+        st.image("app/assets/confusion_matrix.png", width='stretch')
     else:
         st.info("Visualisasi `confusion_matrix.png` belum dibuat.")
         
     st.subheader("Metode Siku (Elbow Method)")
     if os.path.exists("app/assets/elbow_method.png"):
-        st.image("app/assets/elbow_method.png", use_container_width=True)
+        st.image("app/assets/elbow_method.png", width='stretch')
     else:
         st.info("Visualisasi `elbow_method.png` belum dibuat.")
 
@@ -248,7 +252,7 @@ elif menu == "Interpretasi & Insight":
     st.markdown("Berdasarkan perbandingan antara model klasterisasi objektif dan keputusan historis panitia seleksi, ditemukan kasus ketidaksesuaian keputusan (*mismatch rate*).")
     
     if os.path.exists("app/assets/visualisasi_anomali.png"):
-        st.image("app/assets/visualisasi_anomali.png", use_container_width=True)
+        st.image("app/assets/visualisasi_anomali.png", width='stretch')
     else:
         st.info("Visualisasi `visualisasi_anomali.png` belum dibuat.")
         
