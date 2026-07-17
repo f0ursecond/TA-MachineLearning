@@ -91,6 +91,16 @@ def run_pipeline(raw_data_path='data/raw/dataset.csv', models_dir='models', proc
     cluster_labels_agglo = agglo.fit_predict(df_scaled)
     df_clean['Cluster_Agglomerative'] = cluster_labels_agglo
     
+    # Train proxy classifier for Agglomerative prediction on new data
+    from sklearn.neighbors import KNeighborsClassifier
+    agglo_proxy = KNeighborsClassifier(n_neighbors=3)
+    agglo_proxy.fit(df_scaled, cluster_labels_agglo)
+    
+    agglo_model_path = os.path.join(models_dir, 'agglo_model.pkl')
+    with open(agglo_model_path, 'wb') as f:
+        pickle.dump(agglo_proxy, f)
+    print(f"💾 Proxy model Agglomerative disimpan ke: {agglo_model_path}")
+    
     silhouette_agglo = silhouette_score(df_scaled, cluster_labels_agglo)
     db_agglo = davies_bouldin_score(df_scaled, cluster_labels_agglo)
     

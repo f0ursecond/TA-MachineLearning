@@ -156,7 +156,7 @@ Berikut adalah perbandingan performa ketiga model yang diuji:
 ### 3.4 Visualisasi Hasil Evaluasi
 Untuk mengevaluasi kualitas cluster terhadap Ground Truth (keputusan aktual beasiswa), kami menggunakan **Confusion Matrix** (`confusion_matrix.png`):
 
-![Confusion Matrix](confusion_matrix.png)
+![Confusion Matrix](/app/assets/confusion_matrix.png)
 * *Insight dari Confusion Matrix:* K-Means ($k=2$) menunjukkan kecocokan yang kuat dengan keputusan asli pada kelompok penolakan beasiswa (555 data terklasifikasi benar sebagai tidak layak/ditolak). Namun, terdapat sebaran anomali yang jelas pada kuadran cross-tabulation.
 
 ### 3.5 Pemilihan Model Terbaik dan Justifikasi

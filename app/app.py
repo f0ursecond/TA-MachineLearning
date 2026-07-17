@@ -60,19 +60,28 @@ st.markdown("""
 @st.cache_resource
 def load_ml_components():
     model_path = 'models/best_model.pkl'
+    agglo_path = 'models/agglo_model.pkl'
     prep_path = 'models/preprocessing.pkl'
     
-    if not os.path.exists(model_path) or not os.path.exists(prep_path):
-        return None, None
-        
-    with open(model_path, 'rb') as f:
-        kmeans_model = pickle.load(f)
-    with open(prep_path, 'rb') as f:
-        preprocessing_data = pickle.load(f)
-        
-    return kmeans_model, preprocessing_data
+    kmeans_model = None
+    agglo_model = None
+    preprocessing_data = None
+    
+    if os.path.exists(prep_path):
+        with open(prep_path, 'rb') as f:
+            preprocessing_data = pickle.load(f)
+            
+    if os.path.exists(model_path):
+        with open(model_path, 'rb') as f:
+            kmeans_model = pickle.load(f)
+            
+    if os.path.exists(agglo_path):
+        with open(agglo_path, 'rb') as f:
+            agglo_model = pickle.load(f)
+            
+    return kmeans_model, agglo_model, preprocessing_data
 
-kmeans, prep = load_ml_components()
+kmeans, agglo, prep = load_ml_components()
 
 # App Header
 st.markdown("<h1 class='main-title'>🎓 Sistem Pendukung Keputusan Kelayakan Beasiswa</h1>", unsafe_allow_html=True)
@@ -89,6 +98,8 @@ menu = st.sidebar.radio(
 # Tampilkan warning jika model belum dilatih
 if kmeans is None or prep is None:
     st.warning("⚠️ File model (`models/best_model.pkl` & `models/preprocessing.pkl`) belum ditemukan. Silakan jalankan `python src/train_model.py` terlebih dahulu di terminal untuk melatih model.")
+elif agglo is None:
+    st.info("ℹ️ File model proxy Agglomerative (`models/agglo_model.pkl`) belum ditemukan. Silakan jalankan kembali `python src/train_model.py` jika ingin membandingkan model.")
 
 if menu == "Dashboard EDA":
     st.header("📊 Dashboard Analisis Eksploratif Data (EDA)")
@@ -179,32 +190,80 @@ elif menu == "Model Demo (Form Input)":
                 else:
                     encoded_input[col] = val
                     
-            data_encoded = pd.DataFrame([encoded_input])
+            data_encoded = pd.DataFrame([encoded_input])[fitur_kolom]
             
             # Scale
             data_scaled = scaler.transform(data_encoded)
             
             # Predict
-            pred_cluster = kmeans.predict(data_scaled)[0]
+            pred_kmeans = kmeans.predict(data_scaled)[0]
+            pred_agglo = agglo.predict(data_scaled)[0] if agglo is not None else None
             
             # Tampilkan Hasil
             st.subheader("🔍 Hasil Keputusan Model:")
-            if pred_cluster == 0:
-                st.success(f"🎉 Pendaftar **{nama}** dinyatakan **LAYAK (Cluster 0)** menerima beasiswa.")
-                st.markdown("""
-                * **Profil Klaster Kelayakan:**
-                  - IPK Rata-rata: ~3.32
-                  - Karakteristik Ekonomi: Tanggungan orang tua relatif banyak (rata-rata 3.16 anak), didominasi oleh penghasilan Rendah-Sedang.
-                  - Justifikasi: Memenuhi kriteria sosio-ekonomi prioritas dan batas aman akademik.
-                """)
+            
+            if pred_agglo is not None:
+                col_km, col_ag = st.columns(2)
+                
+                with col_km:
+                    st.markdown("### 🤖 K-Means Clustering (Optimal)")
+                    if pred_kmeans == 0:
+                        st.success(f"🎉 **{nama}** dinyatakan **LAYAK (Cluster 0)**")
+                        st.markdown("""
+                        * **Profil Klaster K-Means:**
+                          - IPK Rata-rata: ~3.32
+                          - Tanggungan: Banyak (rata-rata 3.16 anak)
+                          - Ekonomi: Rendah-Sedang
+                          - *Justifikasi:* Memenuhi prioritas sosio-ekonomi dan batas aman akademik.
+                        """)
+                    else:
+                        st.warning(f"⚠️ **{nama}** dinyatakan **TIDAK LAYAK (Cluster 1)**")
+                        st.markdown("""
+                        * **Profil Klaster K-Means:**
+                          - IPK Rata-rata: ~3.31
+                          - Tanggungan: Sedikit (rata-rata 2.20 anak)
+                          - Ekonomi: Sedang-Tinggi
+                          - *Justifikasi:* Tidak memenuhi kriteria prioritas ekonomi lemah.
+                        """)
+                        
+                with col_ag:
+                    st.markdown("### 📈 Agglomerative Clustering")
+                    if pred_agglo == 0:
+                        st.success(f"🎉 **{nama}** dinyatakan **LAYAK (Cluster 0)**")
+                        st.markdown("""
+                        * **Profil Klaster Agglomerative:**
+                          - IPK Rata-rata: ~3.34
+                          - Tanggungan: Banyak (rata-rata 2.90 anak)
+                          - Ekonomi: Menengah-Kebawah
+                          - *Justifikasi:* Profil spasial hirarkis menunjukkan beban tanggungan relatif berat.
+                        """)
+                    else:
+                        st.warning(f"⚠️ **{nama}** dinyatakan **TIDAK LAYAK (Cluster 1)**")
+                        st.markdown("""
+                        * **Profil Klaster Agglomerative:**
+                          - IPK Rata-rata: ~3.29
+                          - Tanggungan: Sedikit (rata-rata 2.23 anak)
+                          - Ekonomi: Menengah-Keatas
+                          - *Justifikasi:* Profil spasial hirarkis menunjukkan ekonomi lebih mandiri.
+                        """)
             else:
-                st.warning(f"⚠️ Pendaftar **{nama}** dinyatakan **TIDAK LAYAK (Cluster 1)** menerima beasiswa.")
-                st.markdown("""
-                * **Profil Klaster Kelayakan:**
-                  - IPK Rata-rata: ~3.31
-                  - Karakteristik Ekonomi: Tingkat ekonomi tergolong lebih mapan (penghasilan didominasi Sedang-Tinggi), tanggungan anak lebih sedikit (rata-rata 2.20 anak).
-                  - Justifikasi: Tidak memenuhi kriteria prioritas kemiskinan yang dipersyaratkan oleh pemberi beasiswa.
-                """)
+                # Fallback jika model Agglomerative belum dilatih
+                if pred_kmeans == 0:
+                    st.success(f"🎉 Pendaftar **{nama}** dinyatakan **LAYAK (Cluster 0)** menerima beasiswa.")
+                    st.markdown("""
+                    * **Profil Klaster Kelayakan:**
+                      - IPK Rata-rata: ~3.32
+                      - Karakteristik Ekonomi: Tanggungan orang tua relatif banyak (rata-rata 3.16 anak), didominasi oleh penghasilan Rendah-Sedang.
+                      - Justifikasi: Memenuhi kriteria sosio-ekonomi prioritas dan batas aman akademik.
+                    """)
+                else:
+                    st.warning(f"⚠️ Pendaftar **{nama}** dinyatakan **TIDAK LAYAK (Cluster 1)** menerima beasiswa.")
+                    st.markdown("""
+                    * **Profil Klaster Kelayakan:**
+                      - IPK Rata-rata: ~3.31
+                      - Karakteristik Ekonomi: Tingkat ekonomi tergolong lebih mapan (penghasilan didominasi Sedang-Tinggi), tanggungan anak lebih sedikit (rata-rata 2.20 anak).
+                      - Justifikasi: Tidak memenuhi kriteria prioritas kemiskinan yang dipersyaratkan oleh pemberi beasiswa.
+                    """)
     else:
         st.info("Silakan latih model terlebih dahulu untuk dapat menggunakan fitur prediksi ini.")
 
