@@ -1,12 +1,5 @@
 # LAPORAN TEKNIS: PEMBELAJARAN MESIN
 ## ANALISIS KESESUAIAN PENERIMA BEASISWA MENGGUNAKAN METODE CLUSTERING TERHADAP DATA GROUND TRUTH
----
-* **Mata Kuliah:** Pembelajaran Mesin (Unsupervised Learning)
-* **Sifat:** Project (Capstone Project)
-* **Program Studi:** Teknik Informatika
-* **Tahun Akademik:** 2026
-
----
 
 # 1. PENDAHULUAN DAN LATAR BELAKAR
 Dalam upaya pemerataan akses pendidikan, program beasiswa merupakan salah satu instrumen penting bagi perguruan tinggi untuk mendukung mahasiswa yang layak secara akademik maupun ekonomi. Namun, proses seleksi manual historis yang dilakukan oleh panitia seleksi sering kali menghadapi tantangan subjektivitas, inkonsistensi keputusan, serta bias manusia dalam melakukan penilaian berkas. Kriteria seleksi yang mencakup aspek akademik (seperti IPK dan SKS) serta aspek ekonomi (seperti penghasilan orang tua dan jumlah tanggungan) sering kali tidak ditimbang secara proporsional dan transparan. 
