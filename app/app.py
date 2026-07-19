@@ -327,6 +327,15 @@ elif menu == "Interpretasi & Insight":
        - **Karakteristik:** Rata-rata IPK memenuhi syarat aman (**3.30**), namun kondisi ekonominya sangat membutuhkan bantuan (tanggungan rata-rata banyak, **3.1** anak, dan penghasilan didominasi rendah/sedang).
        - **Insight:** Merupakan sasaran target utama beasiswa yang terlewatkan (misclassified) oleh panitia seleksi, kemungkinan karena keterbatasan kuota atau bias subjektivitas seleksi manual.
     """)
+    
+    st.subheader("🧬 Interpretasi Fitur dengan SHAP (Surrogate Model)")
+    st.markdown("Grafik di bawah ini menjelaskan signifikansi masing-masing kriteria dalam menentukan kelayakan penerima beasiswa berdasarkan model objektif K-Means menggunakan SHAP (SHapley Additive exPlanations) yang diterapkan pada model surrogate Random Forest.")
+    if os.path.exists("app/assets/shap_feature_importance.png"):
+        st.image("app/assets/shap_feature_importance.png", width='stretch')
+    elif os.path.exists("shap_feature_importance.png"):
+        st.image("shap_feature_importance.png", width='stretch')
+    else:
+        st.info("Visualisasi SHAP `shap_feature_importance.png` belum dibuat. Jalankan pipeline pelatihan model untuk membuat grafik ini.")
 
 elif menu == "Dokumentasi Metodologi":
     st.header("📖 Dokumentasi & Metodologi Proyek")

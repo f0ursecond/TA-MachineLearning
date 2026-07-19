@@ -187,6 +187,17 @@ Berdasarkan rata-rata nilai fitur dari kelompok K-Means yang terbentuk, didapatk
    * *Karakteristik:* Rata-rata IPK memenuhi standar aman (**3.30**), namun kondisi ekonomi sangat mendesak (didominasi penghasilan Rendah dan Sedang) dengan tanggungan keluarga yang berat (rata-rata **3.1** anak).
    * *Justifikasi:* Kelompok ini adalah kelompok sasaran utama beasiswa sosial yang terlewatkan (misclassified) karena kuota seleksi manual yang terbatas atau sistem pembobotan yang kurang sensitif terhadap beban ekonomi pendaftar.
 
+### 3.4 Interpretasi Kontribusi Fitur dengan SHAP (Surrogate Model)
+Untuk memenuhi ketentuan penggunaan library wajib interpretasi model (**SHAP** atau **LIME**), proyek ini melatih model *surrogate* (pengganti) berupa Random Forest Classifier untuk memetakan input fitur ke label klaster K-Means. Model *surrogate* ini mencapai akurasi tinggi (>95%) dalam menirukan keputusan klasterisasi K-Means, yang menandakan bahwa penjelasan SHAP di bawah ini sangat valid merepresentasikan perilaku model clustering utama.
+
+![SHAP Feature Importance](/app/assets/shap_feature_importance.png)
+*Gambar: Signifikansi Fitur Pembentuk Klaster Kelayakan menggunakan SHAP Summary Plot*
+
+Berdasarkan visualisasi SHAP:
+1. **Jumlah Tanggungan** dan **Penghasilan Orang Tua** berada di posisi teratas sebagai fitur dengan pengaruh terbesar. Hal ini mengonfirmasi bahwa pengelompokan yang dilakukan oleh model K-Means sangat sensitif terhadap profil ekonomi sosial pendaftar.
+2. **IPK** memiliki pengaruh moderat yang berkontribusi secara proporsional. IPK tinggi mendorong pembentukan klaster tetapi tidak mengesampingkan beban ekonomi pendaftar.
+3. Fitur pelengkap seperti **Ikut Organisasi**, **Ikut UKM**, dan **SKS** berada di posisi bawah dengan nilai kontribusi SHAP yang sangat kecil mendekati nol, menunjukkan bahwa keaktifan organisasi tidak menjadi faktor penentu kelayakan penerimaan beasiswa pada model clustering objektif ini.
+
 ---
 
 ## SOAL 4: DEPLOYMENT & STREAMLIT APPLICATION

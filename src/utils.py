@@ -255,3 +255,34 @@ def plot_visualisasi_anomali(df_anomali, df_clean, assets_dir='app/assets'):
         
     plt.tight_layout()
     save_plot(fig, "visualisasi_anomali.png", assets_dir)
+
+def plot_shap_interpretation(df_scaled, cluster_labels, assets_dir='app/assets'):
+    """
+    Membuat dan menyimpan visualisasi interpretasi SHAP menggunakan surrogate Random Forest.
+    """
+    import shap
+    from sklearn.ensemble import RandomForestClassifier
+    
+    # 1. Latih model surrogate Random Forest untuk meniru hasil K-Means
+    clf = RandomForestClassifier(random_state=42, n_estimators=100)
+    clf.fit(df_scaled, cluster_labels)
+    
+    # 2. Hitung nilai SHAP
+    explainer = shap.TreeExplainer(clf)
+    shap_values = explainer.shap_values(df_scaled)
+    
+    # 3. Plot SHAP Summary Plot
+    fig = plt.figure(figsize=(10, 6))
+    
+    if isinstance(shap_values, list):
+        shap.summary_plot(shap_values[1], df_scaled, show=False)
+    elif len(shap_values.shape) == 3: # format baru multiclass
+        shap.summary_plot(shap_values[:, :, 1], df_scaled, show=False)
+    else:
+        shap.summary_plot(shap_values, df_scaled, show=False)
+        
+    plt.title('Interpretasi Kontribusi Fitur Terhadap Pembentukan Klaster (SHAP)', fontsize=14, fontweight='bold', pad=20)
+    plt.tight_layout()
+    
+    save_plot(fig, "shap_feature_importance.png", assets_dir)
+

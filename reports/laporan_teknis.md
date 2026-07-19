@@ -81,6 +81,17 @@ Ditemukan sebanyak **286 kasus anomali (27.4%)** dari total 1.043 pendaftar. Ano
 ### 3.5 Validasi Stabilitas Model
 Untuk membuktikan validitas ilmiah, dilakukan **Uji Stabilitas Klaster menggunakan metode Split-Sample**. Data dipecah secara acak menjadi dua bagian (50-50), lalu model dilatih kembali secara terpisah. Hasilnya menunjukkan pergeseran koordinat pusat klaster (centroid) maksimal hanya sebesar **5.7%**. Hal ini menunjukkan bahwa klaster kelayakan yang dihasilkan oleh model K-Means sangat stabil, konsisten, dan bukan merupakan pola acak.
 
+### 3.6 Interpretasi Kontribusi Fitur dengan SHAP (Surrogate Model)
+Untuk memenuhi ketentuan teknis interpretasi model (SHAP/LIME), proyek ini melatih model *surrogate* (pengganti) berupa Random Forest Classifier untuk meniru keputusan pengelompokan yang dibuat oleh K-Means. Pendekatan ini memungkinkan penggunaan **SHAP (SHapley Additive exPlanations)** untuk mengekstrak signifikansi relatif dari masing-masing fitur.
+
+![SHAP Feature Importance](/app/assets/shap_feature_importance.png)
+*Gambar 3: Signifikansi Fitur Pembentuk Klaster Kelayakan menggunakan SHAP*
+
+Berdasarkan analisis nilai SHAP:
+* **Jumlah Tanggungan** dan **Penghasilan Orang Tua** merupakan fitur yang paling dominan dalam menentukan klasterisasi pendaftar beasiswa. Hal ini sejalan dengan aspek ekonomi sosial yang menjadi kriteria utama beasiswa sosial.
+* **IPK** memiliki pengaruh moderat yang menunjukkan kontribusi akademis yang proporsional, tanpa mendominasi pengelompokan secara ekstrem.
+* Fitur keaktifan mahasiswa (seperti **Ikut Organisasi** dan **Ikut UKM**) memiliki nilai SHAP yang sangat rendah, mengonfirmasi bahwa keaktifan non-akademik bukan merupakan penentu prioritas utama kelayakan bantuan ekonomi.
+
 ---
 
 # 4. KESIMPULAN DAN REKOMENDASI

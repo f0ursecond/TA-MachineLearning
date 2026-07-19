@@ -17,3 +17,7 @@ tabulate>=0.10.0
 # Deployment
 streamlit>=1.20.0
 
+# Model Interpretation
+shap>=0.41.0
+
+

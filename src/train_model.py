@@ -129,6 +129,8 @@ def run_pipeline(raw_data_path='data/raw/dataset.csv', models_dir='models', proc
     utils.plot_boxplot_perbandingan(df_clean)
     utils.plot_confusion_matrix(df_clean['Ground_Truth'], cluster_labels_kmeans, cluster_labels_agglo)
     utils.plot_scatter_ipk_penghasilan(df_clean)
+    utils.plot_shap_interpretation(df_scaled, cluster_labels_kmeans)
+
     
     # 6. Analisis Anomali
     print("🔍 Mengidentifikasi anomali penerimaan beasiswa...")
