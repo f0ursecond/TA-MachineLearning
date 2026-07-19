@@ -1,16 +1,3 @@
-# LAPORAN PROYEK AKHIR: PEMBELAJARAN MESIN
-## ANALISIS KESESUAIAN PENERIMA BEASISWA MENGGUNAKAN METODE CLUSTERING TERHADAP DATA GROUND TRUTH
----
-* **Mata Kuliah:** Pembelajaran Mesin (Pembelajaran Tanpa Pengawasan / Unsupervised Learning)
-* **Sifat:** Project (Capstone Project)
-* **Kelompok / Kelas:** A11.4501 – A11.45XX
-* **Dosen Pengampu:** Tim Dosen
-* **Program Studi:** Teknik Informatika / Sistem Informasi / Ilmu Komputer
-* **Universitas:** Universitas Dian Nuswantoro, Semarang
-
----
-
-## 📌 DAFTAR ISI
 1. [SOAL 1: PROBLEM DEFINITION & DATA ACQUISITION](#soal-1-problem-definition--data-acquisition)
    - 1.1 Latar Belakang dan Problem Statement
    - 1.2 Link atau Dokumentasi Sumber Dataset
