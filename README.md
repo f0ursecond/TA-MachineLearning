@@ -122,7 +122,7 @@ Jalankan server Streamlit dari root direktori proyek Anda:
 ```bash
 streamlit run app/app.py
 ```
-Aplikasi web interaktif akan otomatis terbuka di browser Anda pada alamat `http://localhost:8501`.
+Aplikasi web interaktif akan otomatis terbuka di browser Anda pada alamat `https://ta-machinelearning-ctehmnphxzm3ok9x8cdysb.streamlit.app/`.
 
 ---
 
